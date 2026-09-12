@@ -1,0 +1,22 @@
+procurement_id,startup_id,challenge_id,application_id,procurement_status,contract_value,contract_duration_months,procurement_channel,deployment_status,payment_status
+384c78d5-663b-492d-9552-f5edcac65d58,3efb510d-6da8-4223-b53d-4df753e1cfad,968c287b-05d3-41cf-934e-75910bd4f94c,e0f0d186-05a4-4013-b788-e80da9a834cf,Deployed,1815250,6,GeM,Completed,Partial
+b0bb6563-4574-48f7-bd90-1f644b4acdaf,6858c92e-7d2a-4505-9637-f2afcd885c8b,84c1d83e-8cf0-4211-b561-68cb9dd7af42,0cf54383-757d-490a-9e80-80a04e37a664,Deployed,3311654,3,GeM,In Progress,Partial
+e8e04019-287f-40a0-8c4a-10c728b58a6f,1d9c95c9-4382-456a-88fa-d7d3f778cb49,8c16eb41-a593-4db1-8576-acfb20a95d5d,3545da9f-628d-4238-a904-84bef810d536,Contracted,4522454,4,GeM,Completed,Completed
+673465f0-7399-4f4d-bcc8-803da8f058ea,36b20074-1180-4410-9ae7-7baffa3aef1d,98b776f3-143a-49e1-afab-2a677ea2f30c,41883668-d1f8-4021-8ccd-1f173ddc81eb,Deployed,3370290,6,GeM,Pending,Partial
+ad903406-3ba3-4eb7-ae02-4d7e39877548,e52b99bb-af80-4f8d-bd79-73aa608f2d21,df5efbd6-10c0-4314-8631-6cfd8cd96a1a,11d1960c-2669-4aa7-ade2-7d038cb8f251,Completed,4730361,4,Authorized Government Procurement,Pending,Completed
+efd09e85-f738-42f6-af53-cfc0dddd512d,281ab833-74c7-4d39-9615-c4ddaf731744,341b6bd0-c7b3-4aaa-b60d-b2bb57358376,8b31c5d3-1dc6-4cd1-9c48-0e8d418e546a,Under Process,5455822,11,Authorized Government Procurement,Completed,Partial
+a287bc33-5ec9-4b46-8341-5fc9371667cb,140d7b9d-dc14-4ab4-aad5-0a4e6e7d73e1,e3af6c35-cd72-4ebe-81d0-a93493f3d4f3,0e54cc77-dd64-43ee-aa35-64ca20a1f807,Deployed,3686870,10,Department-specific procurement mechanism,Completed,Completed
+e183cf76-9195-4225-a772-cb9bac31190f,1de3d76f-8fa3-42ef-9945-0e775a61b7c1,b90cb24f-9d36-494b-97a7-09823f46832b,58b392ef-30fc-489c-b94a-34cc2fa4d28a,Deployed,6407606,8,GeM,Pending,Completed
+47b17ab5-9f06-4e6c-aed1-8f70491bd7ea,ea4461ea-56a3-4732-9722-75648f13fcfe,f9c2d49e-1a3c-4523-b4a2-9c92d21096f3,646300fe-9b10-4d28-9cc1-1609ee15a90f,Contracted,1991502,4,CPPP,Pending,Pending
+ca067dad-e438-4cc2-9ab8-3b9e472fc2a0,acabbdd9-aa2e-4593-8257-e8413fc150e9,600c64a8-0925-4dcf-a823-85629ecf3ba1,aaeda9cd-048e-4e87-93c9-1fa32c4a2d89,Contracted,6787025,9,CPPP,Pending,Partial
+bdb8302d-f6ee-466e-9237-ac17861bcd1d,06b71e23-c76b-4c0a-b283-b05f3c8a076a,c3525510-84f1-4703-b98a-c6e507b008a2,80605b93-26da-4d7e-a508-9e3c6319f790,Contracted,6283524,4,GeM,In Progress,Partial
+c41c8369-15cb-494a-b0f2-7de2c22a01a4,91b16965-d8fc-4fe5-b010-0844f38bddae,d8162f8f-3cfa-4694-88fb-5ae06faec86a,951764b3-dab1-452c-943d-ae1cc77c0eee,Under Process,4147917,10,CPPP,In Progress,Partial
+de45c158-b6c3-4ea3-84ed-0f6b06ac96c6,3ea9da09-01d4-448d-9099-e771a8a44e98,499c8955-5d2a-4cc3-b2cd-8759992b46c0,255c607a-62fe-4577-b49c-718ac3bdb314,Deployed,1938018,12,CPPP,Completed,Partial
+dc9b8832-78d8-4a3a-8273-aca4855a854b,965fa9bc-6792-40a6-8ac2-6d52ef732033,eafcae4b-3085-4064-aa0c-7c383556dbcb,4de26052-32f9-4bea-94a8-32381bbdd861,Under Process,4980231,11,GeM,In Progress,Partial
+3c21676b-da14-421c-8c10-6a8e853b079f,d9891192-bab2-4fdc-b6c5-6fe2ae6a942f,de712609-885c-48be-b204-a2f8998b2e4a,73fd3abd-d259-4c3d-ad75-cd081a61651e,Completed,1655521,5,Authorized Government Procurement,Completed,Partial
+7b45dacf-df73-4bbc-9d96-005ec698e6e8,e0652666-ace8-4b09-9d3b-4c2c45ab2338,b90cb24f-9d36-494b-97a7-09823f46832b,ec1e60eb-8dc2-45ba-9322-7e91c0036bf5,Contracted,5497275,4,Department-specific procurement mechanism,In Progress,Pending
+56a6d86f-0f85-4fcb-9c93-c3bed7ebe728,c25946c8-af21-47b2-a5d9-fb61abc41d64,3beb567e-55ca-481a-a6d8-09cc8c0ef3dc,8aa805bc-23c8-41f3-9249-3a00ae853874,Completed,2817208,6,Department-specific procurement mechanism,Completed,Completed
+ecb53537-21ab-477f-8199-fa03379d5d20,fa832f1e-a2ab-46eb-b9d1-5bd90c5c29ec,481c093a-286b-4170-a785-d71a646f547d,d27fa047-27b5-4c4a-bddd-75e72c8e7544,Deployed,3352103,3,Department-specific procurement mechanism,Pending,Partial
+e42bcd32-5015-410a-aa1d-a47a1116feb4,a90f94ea-7242-479d-91f8-d6693c9bfc66,af6464d4-e6e9-471d-9c3b-af40fced71c8,3032095a-abc4-4cf2-9003-c38206ff055d,Completed,2364748,4,CPPP,Completed,Pending
+add9e729-1902-4cbd-964b-bb2f45eac96c,8be9bc11-2473-4e75-8faa-c23e82d8e85c,5eabc2fb-da29-47cc-a1da-017581b62197,6a5f258d-725d-4d82-b7c4-1f7f18f1fc5d,Contracted,7070466,6,Authorized Government Procurement,Pending,Pending
+7458caf4-c83a-4313-b342-81160a04921c,43ea3e06-7f82-482a-a09e-4544982aa76f,92b97765-6f3e-40bb-8e7e-728edd7445a8,85b5a021-ab5f-4ecb-80d4-4f7ee9b48268,Contracted,3842158,8,CPPP,Completed,Completed

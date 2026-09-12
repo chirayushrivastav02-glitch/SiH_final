@@ -1,0 +1,3733 @@
+[
+  {
+    "challenge_id": "8073490c-13f5-485d-a8ae-d98f07e35552",
+    "challenge_title": "AI Innovation for Education using Machine Learning",
+    "problem_statement": "Develop a solution to improve education operations.",
+    "detailed_description": "We are seeking startups with expertise in Machine Learning to build scalable solutions for Education.",
+    "sector": "Education",
+    "sub_sector": "Education Tech",
+    "required_technologies": [
+      "Machine Learning"
+    ],
+    "preferred_technologies": [
+      "NLP",
+      "Recommendation Systems"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Machine Learning.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 1600000,
+    "budget_max": 6000000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 10,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-09-26T18:40:05.702666Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "8dd3b10b-43d2-4148-a68b-2f2d3822a084",
+    "challenge_title": "AI Innovation for Smart City using Data Analytics, Computer Vision, IoT",
+    "problem_statement": "Develop a solution to improve smart city operations.",
+    "detailed_description": "We are seeking startups with expertise in Data Analytics, Computer Vision, IoT to build scalable solutions for Smart City.",
+    "sector": "Smart City",
+    "sub_sector": "Smart City Tech",
+    "required_technologies": [
+      "Data Analytics",
+      "Computer Vision",
+      "IoT"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Data Analytics.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 1000000,
+    "budget_max": 3000000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 6,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-04T18:40:05.702767Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "37507323-21b0-4ce2-b823-bddcb528281c",
+    "challenge_title": "AI Innovation for Education using Machine Learning, NLP",
+    "problem_statement": "Develop a solution to improve education operations.",
+    "detailed_description": "We are seeking startups with expertise in Machine Learning, NLP to build scalable solutions for Education.",
+    "sector": "Education",
+    "sub_sector": "Education Tech",
+    "required_technologies": [
+      "Machine Learning",
+      "NLP"
+    ],
+    "preferred_technologies": [
+      "VR/AR"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Machine Learning.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 3400000,
+    "budget_max": 4900000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 10,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-26T18:40:05.702812Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "98b18b99-09b1-4480-8e0a-e6b62203a9dc",
+    "challenge_title": "AI Innovation for Renewable Energy using Smart Grids",
+    "problem_statement": "Develop a solution to improve renewable energy operations.",
+    "detailed_description": "We are seeking startups with expertise in Smart Grids to build scalable solutions for Renewable Energy.",
+    "sector": "Renewable Energy",
+    "sub_sector": "Renewable Energy Tech",
+    "required_technologies": [
+      "Smart Grids"
+    ],
+    "preferred_technologies": [
+      "IoT"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Smart Grids.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 3300000,
+    "budget_max": 5300000,
+    "budget_currency": "INR",
+    "location": "Surat",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 8,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-14T18:40:05.702842Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "c4ff8043-795c-4939-8a95-953711753ce9",
+    "challenge_title": "AI Innovation for Renewable Energy using ML",
+    "problem_statement": "Develop a solution to improve renewable energy operations.",
+    "detailed_description": "We are seeking startups with expertise in ML to build scalable solutions for Renewable Energy.",
+    "sector": "Renewable Energy",
+    "sub_sector": "Renewable Energy Tech",
+    "required_technologies": [
+      "ML"
+    ],
+    "preferred_technologies": [
+      "IoT"
+    ],
+    "minimum_experience_years": 5,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 5 years of experience and core capability in ML.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 5000000,
+    "budget_max": 9500000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 13,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-05T18:40:05.702867Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "34c42a9b-ed9b-4714-90f4-719a0ab75118",
+    "challenge_title": "AI Innovation for Agriculture using Satellite Imaging",
+    "problem_statement": "Develop a solution to improve agriculture operations.",
+    "detailed_description": "We are seeking startups with expertise in Satellite Imaging to build scalable solutions for Agriculture.",
+    "sector": "Agriculture",
+    "sub_sector": "Agriculture Tech",
+    "required_technologies": [
+      "Satellite Imaging"
+    ],
+    "preferred_technologies": [
+      "IoT",
+      "Drones"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Satellite Imaging.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 3900000,
+    "budget_max": 5800000,
+    "budget_currency": "INR",
+    "location": "Coimbatore",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 15,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-07T18:40:05.702893Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "23a5d305-eda0-4e94-8e98-f4c86a0ad297",
+    "challenge_title": "AI Innovation for Cybersecurity using Threat Detection, Blockchain, Cryptography",
+    "problem_statement": "Develop a solution to improve cybersecurity operations.",
+    "detailed_description": "We are seeking startups with expertise in Threat Detection, Blockchain, Cryptography to build scalable solutions for Cybersecurity.",
+    "sector": "Cybersecurity",
+    "sub_sector": "Cybersecurity Tech",
+    "required_technologies": [
+      "Threat Detection",
+      "Blockchain",
+      "Cryptography"
+    ],
+    "preferred_technologies": [
+      "AI"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Threat Detection.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 3700000,
+    "budget_max": 8500000,
+    "budget_currency": "INR",
+    "location": "Guwahati",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 3,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-09-25T18:40:05.702931Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "04fc0fbc-3d70-4d3a-87dd-38115c9a01a5",
+    "challenge_title": "AI Innovation for Education using Machine Learning, NLP, VR/AR",
+    "problem_statement": "Develop a solution to improve education operations.",
+    "detailed_description": "We are seeking startups with expertise in Machine Learning, NLP, VR/AR to build scalable solutions for Education.",
+    "sector": "Education",
+    "sub_sector": "Education Tech",
+    "required_technologies": [
+      "Machine Learning",
+      "NLP",
+      "VR/AR"
+    ],
+    "preferred_technologies": [
+      "Recommendation Systems"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Machine Learning.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 1000000,
+    "budget_max": 3600000,
+    "budget_currency": "INR",
+    "location": "Nagpur",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 14,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-23T18:40:05.702955Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "17f1dc4f-32f6-481f-aaf2-59d5506eaf5f",
+    "challenge_title": "AI Innovation for Logistics using Blockchain",
+    "problem_statement": "Develop a solution to improve logistics operations.",
+    "detailed_description": "We are seeking startups with expertise in Blockchain to build scalable solutions for Logistics.",
+    "sector": "Logistics",
+    "sub_sector": "Logistics Tech",
+    "required_technologies": [
+      "Blockchain"
+    ],
+    "preferred_technologies": [
+      "IoT",
+      "Route Optimization"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Blockchain.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 3300000,
+    "budget_max": 6200000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 18,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-06T18:40:05.702977Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "4d5c5653-bf8e-46ce-862e-b3b7e1584ce3",
+    "challenge_title": "AI Innovation for Cybersecurity using Cryptography",
+    "problem_statement": "Develop a solution to improve cybersecurity operations.",
+    "detailed_description": "We are seeking startups with expertise in Cryptography to build scalable solutions for Cybersecurity.",
+    "sector": "Cybersecurity",
+    "sub_sector": "Cybersecurity Tech",
+    "required_technologies": [
+      "Cryptography"
+    ],
+    "preferred_technologies": [
+      "Network Security",
+      "Blockchain"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Cryptography.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 4800000,
+    "budget_max": 8500000,
+    "budget_currency": "INR",
+    "location": "Nashik",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 14,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-04T18:40:05.702999Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "de712609-885c-48be-b204-a2f8998b2e4a",
+    "challenge_title": "AI Innovation for Rural Development using Mobile Tech",
+    "problem_statement": "Develop a solution to improve rural development operations.",
+    "detailed_description": "We are seeking startups with expertise in Mobile Tech to build scalable solutions for Rural Development.",
+    "sector": "Rural Development",
+    "sub_sector": "Rural Development Tech",
+    "required_technologies": [
+      "Mobile Tech"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Mobile Tech.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 1100000,
+    "budget_max": 5800000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 5,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-26T18:40:05.703020Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "698cd44e-b2d1-4a5a-9ddf-8a6e6c5867f9",
+    "challenge_title": "AI Innovation for Agriculture using Satellite Imaging, ML, Computer Vision",
+    "problem_statement": "Develop a solution to improve agriculture operations.",
+    "detailed_description": "We are seeking startups with expertise in Satellite Imaging, ML, Computer Vision to build scalable solutions for Agriculture.",
+    "sector": "Agriculture",
+    "sub_sector": "Agriculture Tech",
+    "required_technologies": [
+      "Satellite Imaging",
+      "ML",
+      "Computer Vision"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Satellite Imaging.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 4600000,
+    "budget_max": 9200000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 16,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-21T18:40:05.703041Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "92d00461-b2fb-45a6-9391-8f78fe52be78",
+    "challenge_title": "AI Innovation for Governance using NLP, Data Analytics",
+    "problem_statement": "Develop a solution to improve governance operations.",
+    "detailed_description": "We are seeking startups with expertise in NLP, Data Analytics to build scalable solutions for Governance.",
+    "sector": "Governance",
+    "sub_sector": "Governance Tech",
+    "required_technologies": [
+      "NLP",
+      "Data Analytics"
+    ],
+    "preferred_technologies": [
+      "Blockchain",
+      "OCR"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in NLP.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 1600000,
+    "budget_max": 4100000,
+    "budget_currency": "INR",
+    "location": "Delhi",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 17,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-03T18:40:05.703064Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "a3a55dc2-47e8-44fe-a06a-604dd049b2cd",
+    "challenge_title": "AI Innovation for Rural Development using IoT, Data Analytics, Renewable Tech",
+    "problem_statement": "Develop a solution to improve rural development operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT, Data Analytics, Renewable Tech to build scalable solutions for Rural Development.",
+    "sector": "Rural Development",
+    "sub_sector": "Rural Development Tech",
+    "required_technologies": [
+      "IoT",
+      "Data Analytics",
+      "Renewable Tech"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 5,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 5 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 2500000,
+    "budget_max": 4500000,
+    "budget_currency": "INR",
+    "location": "Noida",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 15,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-17T18:40:05.703090Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "2cf52316-f696-49ec-a725-0b6df727b6b5",
+    "challenge_title": "AI Innovation for Environment using Satellite Imaging, IoT",
+    "problem_statement": "Develop a solution to improve environment operations.",
+    "detailed_description": "We are seeking startups with expertise in Satellite Imaging, IoT to build scalable solutions for Environment.",
+    "sector": "Environment",
+    "sub_sector": "Environment Tech",
+    "required_technologies": [
+      "Satellite Imaging",
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Data Analytics"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Satellite Imaging.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 2800000,
+    "budget_max": 5100000,
+    "budget_currency": "INR",
+    "location": "Coimbatore",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 18,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-09-24T18:40:05.703114Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "4ab31420-afd4-45f3-8e51-cb6bf48ca125",
+    "challenge_title": "AI Innovation for Defence using Computer Vision",
+    "problem_statement": "Develop a solution to improve defence operations.",
+    "detailed_description": "We are seeking startups with expertise in Computer Vision to build scalable solutions for Defence.",
+    "sector": "Defence",
+    "sub_sector": "Defence Tech",
+    "required_technologies": [
+      "Computer Vision"
+    ],
+    "preferred_technologies": [
+      "Drones",
+      "Robotics"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Computer Vision.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 2500000,
+    "budget_max": 6000000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 13,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-09-28T18:40:05.703135Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "b365bb8d-2f29-40fd-ba99-3bc53c5da8a3",
+    "challenge_title": "AI Innovation for Waste Management using Route Optimization",
+    "problem_statement": "Develop a solution to improve waste management operations.",
+    "detailed_description": "We are seeking startups with expertise in Route Optimization to build scalable solutions for Waste Management.",
+    "sector": "Waste Management",
+    "sub_sector": "Waste Management Tech",
+    "required_technologies": [
+      "Route Optimization"
+    ],
+    "preferred_technologies": [
+      "IoT"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Route Optimization.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 2900000,
+    "budget_max": 6800000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 9,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-11T18:40:05.703156Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "275c6c42-4302-475f-b7bd-a5bc47571afa",
+    "challenge_title": "AI Innovation for Cybersecurity using Network Security, AI",
+    "problem_statement": "Develop a solution to improve cybersecurity operations.",
+    "detailed_description": "We are seeking startups with expertise in Network Security, AI to build scalable solutions for Cybersecurity.",
+    "sector": "Cybersecurity",
+    "sub_sector": "Cybersecurity Tech",
+    "required_technologies": [
+      "Network Security",
+      "AI"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Network Security.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 3800000,
+    "budget_max": 8200000,
+    "budget_currency": "INR",
+    "location": "Surat",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 11,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-11-05T18:40:05.703179Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "f7871cd5-f0da-4689-a03c-13ce99935b0b",
+    "challenge_title": "AI Innovation for Infrastructure using Computer Vision",
+    "problem_statement": "Develop a solution to improve infrastructure operations.",
+    "detailed_description": "We are seeking startups with expertise in Computer Vision to build scalable solutions for Infrastructure.",
+    "sector": "Infrastructure",
+    "sub_sector": "Infrastructure Tech",
+    "required_technologies": [
+      "Computer Vision"
+    ],
+    "preferred_technologies": [
+      "Sensors"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Computer Vision.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 3100000,
+    "budget_max": 5400000,
+    "budget_currency": "INR",
+    "location": "Chandigarh",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 5,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-03T18:40:05.703200Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "341b6bd0-c7b3-4aaa-b60d-b2bb57358376",
+    "challenge_title": "AI Innovation for Environment using IoT",
+    "problem_statement": "Develop a solution to improve environment operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT to build scalable solutions for Environment.",
+    "sector": "Environment",
+    "sub_sector": "Environment Tech",
+    "required_technologies": [
+      "IoT"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 5000000,
+    "budget_max": 7600000,
+    "budget_currency": "INR",
+    "location": "Kolkata",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 5,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-01T18:40:05.703220Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "8c16eb41-a593-4db1-8576-acfb20a95d5d",
+    "challenge_title": "AI Innovation for Infrastructure using IoT",
+    "problem_statement": "Develop a solution to improve infrastructure operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT to build scalable solutions for Infrastructure.",
+    "sector": "Infrastructure",
+    "sub_sector": "Infrastructure Tech",
+    "required_technologies": [
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Sensors"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 2900000,
+    "budget_max": 6200000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 16,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-11-10T18:40:05.703240Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "bbd7135d-3d8b-4dae-bfee-367dbf4c0cfc",
+    "challenge_title": "AI Innovation for Cybersecurity using Network Security",
+    "problem_statement": "Develop a solution to improve cybersecurity operations.",
+    "detailed_description": "We are seeking startups with expertise in Network Security to build scalable solutions for Cybersecurity.",
+    "sector": "Cybersecurity",
+    "sub_sector": "Cybersecurity Tech",
+    "required_technologies": [
+      "Network Security"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 3,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 3 years of experience and core capability in Network Security.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 1100000,
+    "budget_max": 3200000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 6,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-11-07T18:40:05.703263Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "fb56d98c-6731-4608-b01a-053bb3fb8acf",
+    "challenge_title": "AI Innovation for Disaster Management using IoT",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "IoT"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 2400000,
+    "budget_max": 4800000,
+    "budget_currency": "INR",
+    "location": "Bhopal",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 11,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-09-22T18:40:05.703283Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "61370f10-eee0-4038-868d-5f5c912b2943",
+    "challenge_title": "AI Innovation for Logistics using Blockchain, Route Optimization",
+    "problem_statement": "Develop a solution to improve logistics operations.",
+    "detailed_description": "We are seeking startups with expertise in Blockchain, Route Optimization to build scalable solutions for Logistics.",
+    "sector": "Logistics",
+    "sub_sector": "Logistics Tech",
+    "required_technologies": [
+      "Blockchain",
+      "Route Optimization"
+    ],
+    "preferred_technologies": [
+      "Predictive Analytics",
+      "IoT"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Blockchain.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 2600000,
+    "budget_max": 3800000,
+    "budget_currency": "INR",
+    "location": "Lucknow",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 6,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-09-27T18:40:05.703304Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "5d47c32c-9bdd-4b73-95b2-b9200c65f614",
+    "challenge_title": "AI Innovation for Transportation using Predictive Maintenance, Route Optimization",
+    "problem_statement": "Develop a solution to improve transportation operations.",
+    "detailed_description": "We are seeking startups with expertise in Predictive Maintenance, Route Optimization to build scalable solutions for Transportation.",
+    "sector": "Transportation",
+    "sub_sector": "Transportation Tech",
+    "required_technologies": [
+      "Predictive Maintenance",
+      "Route Optimization"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Predictive Maintenance.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 4400000,
+    "budget_max": 6600000,
+    "budget_currency": "INR",
+    "location": "Surat",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 6,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-14T18:40:05.703324Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "15395a85-614a-40ec-b69a-c59b89e6bae8",
+    "challenge_title": "AI Innovation for Logistics using Predictive Analytics, IoT",
+    "problem_statement": "Develop a solution to improve logistics operations.",
+    "detailed_description": "We are seeking startups with expertise in Predictive Analytics, IoT to build scalable solutions for Logistics.",
+    "sector": "Logistics",
+    "sub_sector": "Logistics Tech",
+    "required_technologies": [
+      "Predictive Analytics",
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Blockchain",
+      "Route Optimization"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Predictive Analytics.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 2200000,
+    "budget_max": 5800000,
+    "budget_currency": "INR",
+    "location": "Guwahati",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 3,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-02T18:40:05.703347Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "8bb16d46-a8ec-4a2c-a51d-cde7d11261e3",
+    "challenge_title": "AI Innovation for Transportation using Computer Vision, IoT",
+    "problem_statement": "Develop a solution to improve transportation operations.",
+    "detailed_description": "We are seeking startups with expertise in Computer Vision, IoT to build scalable solutions for Transportation.",
+    "sector": "Transportation",
+    "sub_sector": "Transportation Tech",
+    "required_technologies": [
+      "Computer Vision",
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Predictive Maintenance",
+      "Route Optimization"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Computer Vision.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 4200000,
+    "budget_max": 8200000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 13,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-11-10T18:40:05.703368Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "ef73ef9f-dc66-486b-b172-14af6d121c0a",
+    "challenge_title": "AI Innovation for Water Management using Predictive Analytics",
+    "problem_statement": "Develop a solution to improve water management operations.",
+    "detailed_description": "We are seeking startups with expertise in Predictive Analytics to build scalable solutions for Water Management.",
+    "sector": "Water Management",
+    "sub_sector": "Water Management Tech",
+    "required_technologies": [
+      "Predictive Analytics"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Predictive Analytics.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 2500000,
+    "budget_max": 6500000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 15,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-30T18:40:05.703389Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "054b0c11-1d61-479f-a466-3a53c02ac41c",
+    "challenge_title": "AI Innovation for Smart City using IoT",
+    "problem_statement": "Develop a solution to improve smart city operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT to build scalable solutions for Smart City.",
+    "sector": "Smart City",
+    "sub_sector": "Smart City Tech",
+    "required_technologies": [
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Computer Vision"
+    ],
+    "minimum_experience_years": 3,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 3 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 4300000,
+    "budget_max": 8200000,
+    "budget_currency": "INR",
+    "location": "Hyderabad",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 13,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-09-24T18:40:05.703414Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "914ef79f-a7d5-4d9c-83d2-4aaddd4ab194",
+    "challenge_title": "AI Innovation for Logistics using Predictive Analytics, Route Optimization",
+    "problem_statement": "Develop a solution to improve logistics operations.",
+    "detailed_description": "We are seeking startups with expertise in Predictive Analytics, Route Optimization to build scalable solutions for Logistics.",
+    "sector": "Logistics",
+    "sub_sector": "Logistics Tech",
+    "required_technologies": [
+      "Predictive Analytics",
+      "Route Optimization"
+    ],
+    "preferred_technologies": [
+      "IoT",
+      "Blockchain"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Predictive Analytics.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 2500000,
+    "budget_max": 7500000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 5,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-08T18:40:05.703447Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "c8559569-f080-4d3f-b9fb-d404aaeaea5e",
+    "challenge_title": "AI Innovation for Renewable Energy using Smart Grids, ML",
+    "problem_statement": "Develop a solution to improve renewable energy operations.",
+    "detailed_description": "We are seeking startups with expertise in Smart Grids, ML to build scalable solutions for Renewable Energy.",
+    "sector": "Renewable Energy",
+    "sub_sector": "Renewable Energy Tech",
+    "required_technologies": [
+      "Smart Grids",
+      "ML"
+    ],
+    "preferred_technologies": [
+      "Predictive Analytics"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Smart Grids.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 2400000,
+    "budget_max": 5800000,
+    "budget_currency": "INR",
+    "location": "Mumbai",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 17,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-11-04T18:40:05.703479Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "8b3edffe-86d0-4cdb-8cc0-8b672614e7ff",
+    "challenge_title": "AI Innovation for Transportation using Route Optimization, Computer Vision",
+    "problem_statement": "Develop a solution to improve transportation operations.",
+    "detailed_description": "We are seeking startups with expertise in Route Optimization, Computer Vision to build scalable solutions for Transportation.",
+    "sector": "Transportation",
+    "sub_sector": "Transportation Tech",
+    "required_technologies": [
+      "Route Optimization",
+      "Computer Vision"
+    ],
+    "preferred_technologies": [
+      "IoT"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Route Optimization.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 3200000,
+    "budget_max": 6100000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 11,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-08T18:40:05.703526Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "c9b924f7-3f8e-482e-9312-9d29d29ca15c",
+    "challenge_title": "AI Innovation for Smart City using Data Analytics, Edge Computing",
+    "problem_statement": "Develop a solution to improve smart city operations.",
+    "detailed_description": "We are seeking startups with expertise in Data Analytics, Edge Computing to build scalable solutions for Smart City.",
+    "sector": "Smart City",
+    "sub_sector": "Smart City Tech",
+    "required_technologies": [
+      "Data Analytics",
+      "Edge Computing"
+    ],
+    "preferred_technologies": [
+      "Computer Vision"
+    ],
+    "minimum_experience_years": 3,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 3 years of experience and core capability in Data Analytics.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 1800000,
+    "budget_max": 6700000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 16,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-25T18:40:05.703557Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "a361db93-a537-487f-ae2a-bbd166ad2d05",
+    "challenge_title": "AI Innovation for Defence using AI",
+    "problem_statement": "Develop a solution to improve defence operations.",
+    "detailed_description": "We are seeking startups with expertise in AI to build scalable solutions for Defence.",
+    "sector": "Defence",
+    "sub_sector": "Defence Tech",
+    "required_technologies": [
+      "AI"
+    ],
+    "preferred_technologies": [
+      "Cybersecurity"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in AI.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 3000000,
+    "budget_max": 6100000,
+    "budget_currency": "INR",
+    "location": "Visakhapatnam",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 18,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-11-08T18:40:05.703589Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "f9c2d49e-1a3c-4523-b4a2-9c92d21096f3",
+    "challenge_title": "AI Innovation for Infrastructure using IoT",
+    "problem_statement": "Develop a solution to improve infrastructure operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT to build scalable solutions for Infrastructure.",
+    "sector": "Infrastructure",
+    "sub_sector": "Infrastructure Tech",
+    "required_technologies": [
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Computer Vision"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 1200000,
+    "budget_max": 2300000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 18,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-06T18:40:05.703621Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "b90cb24f-9d36-494b-97a7-09823f46832b",
+    "challenge_title": "AI Innovation for Tourism using Mobile Tech",
+    "problem_statement": "Develop a solution to improve tourism operations.",
+    "detailed_description": "We are seeking startups with expertise in Mobile Tech to build scalable solutions for Tourism.",
+    "sector": "Tourism",
+    "sub_sector": "Tourism Tech",
+    "required_technologies": [
+      "Mobile Tech"
+    ],
+    "preferred_technologies": [
+      "NLP"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Mobile Tech.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 4800000,
+    "budget_max": 6500000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 15,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-11-09T18:40:05.703655Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "949173bb-98e6-44f5-8862-71f45f0c5487",
+    "challenge_title": "AI Innovation for Transportation using IoT",
+    "problem_statement": "Develop a solution to improve transportation operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT to build scalable solutions for Transportation.",
+    "sector": "Transportation",
+    "sub_sector": "Transportation Tech",
+    "required_technologies": [
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Route Optimization",
+      "Predictive Maintenance"
+    ],
+    "minimum_experience_years": 3,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 3 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 4800000,
+    "budget_max": 6500000,
+    "budget_currency": "INR",
+    "location": "Lucknow",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 13,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-10T18:40:05.703678Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "d8162f8f-3cfa-4694-88fb-5ae06faec86a",
+    "challenge_title": "AI Innovation for Disaster Management using Drones",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in Drones to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "Drones"
+    ],
+    "preferred_technologies": [
+      "IoT"
+    ],
+    "minimum_experience_years": 3,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 3 years of experience and core capability in Drones.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 3900000,
+    "budget_max": 5800000,
+    "budget_currency": "INR",
+    "location": "Guwahati",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 11,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-18T18:40:05.703700Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "9f5ecb7e-28d4-4647-9117-0726e7eca285",
+    "challenge_title": "AI Innovation for Agriculture using IoT, ML",
+    "problem_statement": "Develop a solution to improve agriculture operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT, ML to build scalable solutions for Agriculture.",
+    "sector": "Agriculture",
+    "sub_sector": "Agriculture Tech",
+    "required_technologies": [
+      "IoT",
+      "ML"
+    ],
+    "preferred_technologies": [
+      "Satellite Imaging"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 3400000,
+    "budget_max": 6500000,
+    "budget_currency": "INR",
+    "location": "New Delhi",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 11,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-09-22T18:40:05.703723Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "5eabc2fb-da29-47cc-a1da-017581b62197",
+    "challenge_title": "AI Innovation for Skill Development using VR/AR, Machine Learning, Recommendation Systems",
+    "problem_statement": "Develop a solution to improve skill development operations.",
+    "detailed_description": "We are seeking startups with expertise in VR/AR, Machine Learning, Recommendation Systems to build scalable solutions for Skill Development.",
+    "sector": "Skill Development",
+    "sub_sector": "Skill Development Tech",
+    "required_technologies": [
+      "VR/AR",
+      "Machine Learning",
+      "Recommendation Systems"
+    ],
+    "preferred_technologies": [
+      "NLP"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in VR/AR.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 3600000,
+    "budget_max": 7700000,
+    "budget_currency": "INR",
+    "location": "Nagpur",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 5,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-26T18:40:05.703747Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "b5fbf217-84b9-460b-a25a-be0aa4de3950",
+    "challenge_title": "AI Innovation for Public Safety using Predictive Analytics, Biometrics, IoT",
+    "problem_statement": "Develop a solution to improve public safety operations.",
+    "detailed_description": "We are seeking startups with expertise in Predictive Analytics, Biometrics, IoT to build scalable solutions for Public Safety.",
+    "sector": "Public Safety",
+    "sub_sector": "Public Safety Tech",
+    "required_technologies": [
+      "Predictive Analytics",
+      "Biometrics",
+      "IoT"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Predictive Analytics.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 4300000,
+    "budget_max": 7500000,
+    "budget_currency": "INR",
+    "location": "Lucknow",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 11,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-18T18:40:05.703769Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "4f7ec1ca-4230-4de6-b0a3-47677ae5458e",
+    "challenge_title": "AI Innovation for Transportation using IoT, Route Optimization",
+    "problem_statement": "Develop a solution to improve transportation operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT, Route Optimization to build scalable solutions for Transportation.",
+    "sector": "Transportation",
+    "sub_sector": "Transportation Tech",
+    "required_technologies": [
+      "IoT",
+      "Route Optimization"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 4000000,
+    "budget_max": 6700000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 14,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-06T18:40:05.703792Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "f26223d3-22b0-4b85-8732-fa949fef8692",
+    "challenge_title": "AI Innovation for Smart City using Edge Computing, Computer Vision, Data Analytics",
+    "problem_statement": "Develop a solution to improve smart city operations.",
+    "detailed_description": "We are seeking startups with expertise in Edge Computing, Computer Vision, Data Analytics to build scalable solutions for Smart City.",
+    "sector": "Smart City",
+    "sub_sector": "Smart City Tech",
+    "required_technologies": [
+      "Edge Computing",
+      "Computer Vision",
+      "Data Analytics"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Edge Computing.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 1800000,
+    "budget_max": 6800000,
+    "budget_currency": "INR",
+    "location": "Bengaluru",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 17,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-11-08T18:40:05.703815Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "0661d731-4940-4d47-9684-a27d07ac9a48",
+    "challenge_title": "AI Innovation for Healthcare using Medical AI, NLP",
+    "problem_statement": "Develop a solution to improve healthcare operations.",
+    "detailed_description": "We are seeking startups with expertise in Medical AI, NLP to build scalable solutions for Healthcare.",
+    "sector": "Healthcare",
+    "sub_sector": "Healthcare Tech",
+    "required_technologies": [
+      "Medical AI",
+      "NLP"
+    ],
+    "preferred_technologies": [
+      "Computer Vision"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Medical AI.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 4600000,
+    "budget_max": 9600000,
+    "budget_currency": "INR",
+    "location": "Delhi",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 6,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-03T18:40:05.703866Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "ab452b12-5473-4fb2-b39c-3efafcc2ad48",
+    "challenge_title": "AI Innovation for Skill Development using Recommendation Systems, NLP, Machine Learning",
+    "problem_statement": "Develop a solution to improve skill development operations.",
+    "detailed_description": "We are seeking startups with expertise in Recommendation Systems, NLP, Machine Learning to build scalable solutions for Skill Development.",
+    "sector": "Skill Development",
+    "sub_sector": "Skill Development Tech",
+    "required_technologies": [
+      "Recommendation Systems",
+      "NLP",
+      "Machine Learning"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Recommendation Systems.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 4700000,
+    "budget_max": 8400000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 9,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-10T18:40:05.703936Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "3beb567e-55ca-481a-a6d8-09cc8c0ef3dc",
+    "challenge_title": "AI Innovation for Agriculture using IoT",
+    "problem_statement": "Develop a solution to improve agriculture operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT to build scalable solutions for Agriculture.",
+    "sector": "Agriculture",
+    "sub_sector": "Agriculture Tech",
+    "required_technologies": [
+      "IoT"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 2000000,
+    "budget_max": 3000000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 12,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-17T18:40:05.703987Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "785d8c39-f63d-4e16-afaf-b4669da59ed7",
+    "challenge_title": "AI Innovation for Agriculture using Satellite Imaging, IoT, ML",
+    "problem_statement": "Develop a solution to improve agriculture operations.",
+    "detailed_description": "We are seeking startups with expertise in Satellite Imaging, IoT, ML to build scalable solutions for Agriculture.",
+    "sector": "Agriculture",
+    "sub_sector": "Agriculture Tech",
+    "required_technologies": [
+      "Satellite Imaging",
+      "IoT",
+      "ML"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Satellite Imaging.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 2400000,
+    "budget_max": 4300000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 12,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-08T18:40:05.704044Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "c6407a8d-c6b5-4631-8445-9fb5474f07c7",
+    "challenge_title": "AI Innovation for Rural Development using Renewable Tech, Mobile Tech, Data Analytics",
+    "problem_statement": "Develop a solution to improve rural development operations.",
+    "detailed_description": "We are seeking startups with expertise in Renewable Tech, Mobile Tech, Data Analytics to build scalable solutions for Rural Development.",
+    "sector": "Rural Development",
+    "sub_sector": "Rural Development Tech",
+    "required_technologies": [
+      "Renewable Tech",
+      "Mobile Tech",
+      "Data Analytics"
+    ],
+    "preferred_technologies": [
+      "IoT"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Renewable Tech.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 1200000,
+    "budget_max": 4900000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 3,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-07T18:40:05.704093Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "984f6780-7307-4fd2-bf30-20713f233118",
+    "challenge_title": "AI Innovation for Tourism using Recommendation Systems",
+    "problem_statement": "Develop a solution to improve tourism operations.",
+    "detailed_description": "We are seeking startups with expertise in Recommendation Systems to build scalable solutions for Tourism.",
+    "sector": "Tourism",
+    "sub_sector": "Tourism Tech",
+    "required_technologies": [
+      "Recommendation Systems"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Recommendation Systems.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 3800000,
+    "budget_max": 6500000,
+    "budget_currency": "INR",
+    "location": "Nagpur",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 14,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-02T18:40:05.704159Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "f8b1c77b-8b1e-4961-a578-e34b18d997e4",
+    "challenge_title": "AI Innovation for Waste Management using Sensors, Route Optimization, Computer Vision",
+    "problem_statement": "Develop a solution to improve waste management operations.",
+    "detailed_description": "We are seeking startups with expertise in Sensors, Route Optimization, Computer Vision to build scalable solutions for Waste Management.",
+    "sector": "Waste Management",
+    "sub_sector": "Waste Management Tech",
+    "required_technologies": [
+      "Sensors",
+      "Route Optimization",
+      "Computer Vision"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Sensors.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 2800000,
+    "budget_max": 6300000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 13,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-08T18:40:05.704203Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "81dec053-8422-43eb-a339-fc1bd5b50d1d",
+    "challenge_title": "AI Innovation for Logistics using Predictive Analytics",
+    "problem_statement": "Develop a solution to improve logistics operations.",
+    "detailed_description": "We are seeking startups with expertise in Predictive Analytics to build scalable solutions for Logistics.",
+    "sector": "Logistics",
+    "sub_sector": "Logistics Tech",
+    "required_technologies": [
+      "Predictive Analytics"
+    ],
+    "preferred_technologies": [
+      "IoT",
+      "Route Optimization"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Predictive Analytics.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 3300000,
+    "budget_max": 8200000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 7,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-08T18:40:05.704246Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "df5efbd6-10c0-4314-8631-6cfd8cd96a1a",
+    "challenge_title": "AI Innovation for Disaster Management using Predictive Analytics",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in Predictive Analytics to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "Predictive Analytics"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Predictive Analytics.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 2900000,
+    "budget_max": 7400000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 6,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "High",
+    "application_deadline": "2026-09-21T18:40:05.704284Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "681d46c3-f91d-44c0-bff1-a526ce5fb88a",
+    "challenge_title": "AI Innovation for Disaster Management using Drones, Predictive Analytics, IoT",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in Drones, Predictive Analytics, IoT to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "Drones",
+      "Predictive Analytics",
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Satellite Imaging"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Drones.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 4500000,
+    "budget_max": 6400000,
+    "budget_currency": "INR",
+    "location": "Mumbai",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 11,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-15T18:40:05.704321Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "129734b4-582b-42d2-b98b-03101cec4267",
+    "challenge_title": "AI Innovation for Water Management using Predictive Analytics, Machine Learning, Sensors",
+    "problem_statement": "Develop a solution to improve water management operations.",
+    "detailed_description": "We are seeking startups with expertise in Predictive Analytics, Machine Learning, Sensors to build scalable solutions for Water Management.",
+    "sector": "Water Management",
+    "sub_sector": "Water Management Tech",
+    "required_technologies": [
+      "Predictive Analytics",
+      "Machine Learning",
+      "Sensors"
+    ],
+    "preferred_technologies": [
+      "IoT"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Predictive Analytics.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 4400000,
+    "budget_max": 7800000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 16,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-20T18:40:05.704360Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "aaebbf9c-00ad-4aba-838b-0c0824c87134",
+    "challenge_title": "AI Innovation for Disaster Management using IoT, Drones, Satellite Imaging",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT, Drones, Satellite Imaging to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "IoT",
+      "Drones",
+      "Satellite Imaging"
+    ],
+    "preferred_technologies": [
+      "Predictive Analytics"
+    ],
+    "minimum_experience_years": 5,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 5 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 1800000,
+    "budget_max": 6000000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 7,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-28T18:40:05.704410Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "8173bc86-fbbc-4cb4-9fb3-b371c82b1da7",
+    "challenge_title": "AI Innovation for Cybersecurity using AI",
+    "problem_statement": "Develop a solution to improve cybersecurity operations.",
+    "detailed_description": "We are seeking startups with expertise in AI to build scalable solutions for Cybersecurity.",
+    "sector": "Cybersecurity",
+    "sub_sector": "Cybersecurity Tech",
+    "required_technologies": [
+      "AI"
+    ],
+    "preferred_technologies": [
+      "Blockchain"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in AI.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 3500000,
+    "budget_max": 5000000,
+    "budget_currency": "INR",
+    "location": "Jaipur",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 5,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-12T18:40:05.704448Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "968c287b-05d3-41cf-934e-75910bd4f94c",
+    "challenge_title": "AI Innovation for Water Management using IoT",
+    "problem_statement": "Develop a solution to improve water management operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT to build scalable solutions for Water Management.",
+    "sector": "Water Management",
+    "sub_sector": "Water Management Tech",
+    "required_technologies": [
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Predictive Analytics",
+      "Machine Learning"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 1600000,
+    "budget_max": 5400000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 12,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-01T18:40:05.704483Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "98b776f3-143a-49e1-afab-2a677ea2f30c",
+    "challenge_title": "AI Innovation for Governance using Data Analytics",
+    "problem_statement": "Develop a solution to improve governance operations.",
+    "detailed_description": "We are seeking startups with expertise in Data Analytics to build scalable solutions for Governance.",
+    "sector": "Governance",
+    "sub_sector": "Governance Tech",
+    "required_technologies": [
+      "Data Analytics"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Data Analytics.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 2100000,
+    "budget_max": 4100000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 7,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-02T18:40:05.704518Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "e7f45d2f-34cb-419a-8270-bf960d8fe50a",
+    "challenge_title": "AI Innovation for Environment using Sensors, Data Analytics",
+    "problem_statement": "Develop a solution to improve environment operations.",
+    "detailed_description": "We are seeking startups with expertise in Sensors, Data Analytics to build scalable solutions for Environment.",
+    "sector": "Environment",
+    "sub_sector": "Environment Tech",
+    "required_technologies": [
+      "Sensors",
+      "Data Analytics"
+    ],
+    "preferred_technologies": [
+      "IoT"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Sensors.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 2000000,
+    "budget_max": 3400000,
+    "budget_currency": "INR",
+    "location": "Nagpur",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 12,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-19T18:40:05.704556Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "e1bfb432-bb1b-46f0-a4e4-76cce968e7b1",
+    "challenge_title": "AI Innovation for Disaster Management using IoT",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "IoT"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 4600000,
+    "budget_max": 7400000,
+    "budget_currency": "INR",
+    "location": "Surat",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 4,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-11-04T18:40:05.704590Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "c3525510-84f1-4703-b98a-c6e507b008a2",
+    "challenge_title": "AI Innovation for Disaster Management using Drones, Satellite Imaging",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in Drones, Satellite Imaging to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "Drones",
+      "Satellite Imaging"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Drones.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 4900000,
+    "budget_max": 7500000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 17,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-11-03T18:40:05.704626Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "4b2f1d6b-5e02-471a-8438-9a86573c870f",
+    "challenge_title": "AI Innovation for FinTech using Blockchain, Data Analytics, AI",
+    "problem_statement": "Develop a solution to improve fintech operations.",
+    "detailed_description": "We are seeking startups with expertise in Blockchain, Data Analytics, AI to build scalable solutions for FinTech.",
+    "sector": "FinTech",
+    "sub_sector": "FinTech Tech",
+    "required_technologies": [
+      "Blockchain",
+      "Data Analytics",
+      "AI"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Blockchain.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 2100000,
+    "budget_max": 4300000,
+    "budget_currency": "INR",
+    "location": "Chandigarh",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 18,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-09-29T18:40:05.704660Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "481c093a-286b-4170-a785-d71a646f547d",
+    "challenge_title": "AI Innovation for Waste Management using IoT",
+    "problem_statement": "Develop a solution to improve waste management operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT to build scalable solutions for Waste Management.",
+    "sector": "Waste Management",
+    "sub_sector": "Waste Management Tech",
+    "required_technologies": [
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Route Optimization"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 2400000,
+    "budget_max": 5900000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 6,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-26T18:40:05.704698Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "85a17dc8-2912-45b6-8624-fd81f71a5495",
+    "challenge_title": "AI Innovation for Environment using IoT, Sensors, Satellite Imaging",
+    "problem_statement": "Develop a solution to improve environment operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT, Sensors, Satellite Imaging to build scalable solutions for Environment.",
+    "sector": "Environment",
+    "sub_sector": "Environment Tech",
+    "required_technologies": [
+      "IoT",
+      "Sensors",
+      "Satellite Imaging"
+    ],
+    "preferred_technologies": [
+      "Data Analytics"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 4500000,
+    "budget_max": 7500000,
+    "budget_currency": "INR",
+    "location": "Nagpur",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 16,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-30T18:40:05.704739Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "c12acd50-273c-4856-b50f-15ad96406571",
+    "challenge_title": "AI Innovation for Healthcare using Wearables",
+    "problem_statement": "Develop a solution to improve healthcare operations.",
+    "detailed_description": "We are seeking startups with expertise in Wearables to build scalable solutions for Healthcare.",
+    "sector": "Healthcare",
+    "sub_sector": "Healthcare Tech",
+    "required_technologies": [
+      "Wearables"
+    ],
+    "preferred_technologies": [
+      "Medical AI"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Wearables.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 4400000,
+    "budget_max": 6200000,
+    "budget_currency": "INR",
+    "location": "Surat",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 6,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-15T18:40:05.704772Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "bdafab8f-2f56-4402-9372-d46f9e7f63f6",
+    "challenge_title": "AI Innovation for Governance using Machine Learning, OCR",
+    "problem_statement": "Develop a solution to improve governance operations.",
+    "detailed_description": "We are seeking startups with expertise in Machine Learning, OCR to build scalable solutions for Governance.",
+    "sector": "Governance",
+    "sub_sector": "Governance Tech",
+    "required_technologies": [
+      "Machine Learning",
+      "OCR"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Machine Learning.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 2500000,
+    "budget_max": 5800000,
+    "budget_currency": "INR",
+    "location": "Kolkata",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 11,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-09-27T18:40:05.704806Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "e3af6c35-cd72-4ebe-81d0-a93493f3d4f3",
+    "challenge_title": "AI Innovation for Rural Development using Mobile Tech",
+    "problem_statement": "Develop a solution to improve rural development operations.",
+    "detailed_description": "We are seeking startups with expertise in Mobile Tech to build scalable solutions for Rural Development.",
+    "sector": "Rural Development",
+    "sub_sector": "Rural Development Tech",
+    "required_technologies": [
+      "Mobile Tech"
+    ],
+    "preferred_technologies": [
+      "Data Analytics",
+      "IoT"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Mobile Tech.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 3100000,
+    "budget_max": 5600000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 13,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-09-29T18:40:05.704844Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "095c62af-346a-471b-8517-5269bcd0cab0",
+    "challenge_title": "AI Innovation for Smart City using IoT, Edge Computing",
+    "problem_statement": "Develop a solution to improve smart city operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT, Edge Computing to build scalable solutions for Smart City.",
+    "sector": "Smart City",
+    "sub_sector": "Smart City Tech",
+    "required_technologies": [
+      "IoT",
+      "Edge Computing"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 2100000,
+    "budget_max": 3800000,
+    "budget_currency": "INR",
+    "location": "Bengaluru",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 13,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-11-02T18:40:05.704877Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "6b9511fa-630b-46d9-9da9-89a13ef57a3b",
+    "challenge_title": "AI Innovation for Environment using Satellite Imaging",
+    "problem_statement": "Develop a solution to improve environment operations.",
+    "detailed_description": "We are seeking startups with expertise in Satellite Imaging to build scalable solutions for Environment.",
+    "sector": "Environment",
+    "sub_sector": "Environment Tech",
+    "required_technologies": [
+      "Satellite Imaging"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Satellite Imaging.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 1400000,
+    "budget_max": 5400000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 12,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-19T18:40:05.704910Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "6649f2a7-84f5-4e94-88b8-38afab9d76f7",
+    "challenge_title": "AI Innovation for Smart City using Data Analytics",
+    "problem_statement": "Develop a solution to improve smart city operations.",
+    "detailed_description": "We are seeking startups with expertise in Data Analytics to build scalable solutions for Smart City.",
+    "sector": "Smart City",
+    "sub_sector": "Smart City Tech",
+    "required_technologies": [
+      "Data Analytics"
+    ],
+    "preferred_technologies": [
+      "IoT"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Data Analytics.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 4100000,
+    "budget_max": 7900000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 11,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-09-25T18:40:05.704943Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "e3fefcef-9bfe-4d2d-aec7-964ff5d7a350",
+    "challenge_title": "AI Innovation for Tourism using Recommendation Systems, Mobile Tech, NLP",
+    "problem_statement": "Develop a solution to improve tourism operations.",
+    "detailed_description": "We are seeking startups with expertise in Recommendation Systems, Mobile Tech, NLP to build scalable solutions for Tourism.",
+    "sector": "Tourism",
+    "sub_sector": "Tourism Tech",
+    "required_technologies": [
+      "Recommendation Systems",
+      "Mobile Tech",
+      "NLP"
+    ],
+    "preferred_technologies": [
+      "VR/AR"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Recommendation Systems.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 3700000,
+    "budget_max": 5300000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 10,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-10T18:40:05.704976Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "eafcae4b-3085-4064-aa0c-7c383556dbcb",
+    "challenge_title": "AI Innovation for Rural Development using IoT, Mobile Tech",
+    "problem_statement": "Develop a solution to improve rural development operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT, Mobile Tech to build scalable solutions for Rural Development.",
+    "sector": "Rural Development",
+    "sub_sector": "Rural Development Tech",
+    "required_technologies": [
+      "IoT",
+      "Mobile Tech"
+    ],
+    "preferred_technologies": [
+      "Data Analytics"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 2600000,
+    "budget_max": 5900000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 16,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-09-30T18:40:05.705016Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "74c6741e-4b17-44b6-bae9-1e967acb7ef7",
+    "challenge_title": "AI Innovation for FinTech using Blockchain",
+    "problem_statement": "Develop a solution to improve fintech operations.",
+    "detailed_description": "We are seeking startups with expertise in Blockchain to build scalable solutions for FinTech.",
+    "sector": "FinTech",
+    "sub_sector": "FinTech Tech",
+    "required_technologies": [
+      "Blockchain"
+    ],
+    "preferred_technologies": [
+      "Data Analytics",
+      "NLP"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Blockchain.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 3200000,
+    "budget_max": 6900000,
+    "budget_currency": "INR",
+    "location": "Guwahati",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 9,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-11-06T18:40:05.705052Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "84c1d83e-8cf0-4211-b561-68cb9dd7af42",
+    "challenge_title": "AI Innovation for Disaster Management using Drones",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in Drones to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "Drones"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 3,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 3 years of experience and core capability in Drones.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 3300000,
+    "budget_max": 5000000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 8,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-11-08T18:40:05.705084Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "6e2f67f9-786d-4e89-ba5e-068c7ddd0b16",
+    "challenge_title": "AI Innovation for Water Management using IoT, Machine Learning",
+    "problem_statement": "Develop a solution to improve water management operations.",
+    "detailed_description": "We are seeking startups with expertise in IoT, Machine Learning to build scalable solutions for Water Management.",
+    "sector": "Water Management",
+    "sub_sector": "Water Management Tech",
+    "required_technologies": [
+      "IoT",
+      "Machine Learning"
+    ],
+    "preferred_technologies": [
+      "Sensors"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in IoT.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 3500000,
+    "budget_max": 4900000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 17,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-09-30T18:40:05.705117Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "66aada82-23bc-4c98-8377-8df01b1d132e",
+    "challenge_title": "AI Innovation for FinTech using Data Analytics, Blockchain",
+    "problem_statement": "Develop a solution to improve fintech operations.",
+    "detailed_description": "We are seeking startups with expertise in Data Analytics, Blockchain to build scalable solutions for FinTech.",
+    "sector": "FinTech",
+    "sub_sector": "FinTech Tech",
+    "required_technologies": [
+      "Data Analytics",
+      "Blockchain"
+    ],
+    "preferred_technologies": [
+      "NLP",
+      "Fraud Detection"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Data Analytics.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 4900000,
+    "budget_max": 6200000,
+    "budget_currency": "INR",
+    "location": "Kochi",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 17,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-03T18:40:05.705147Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "15652769-6889-45a0-b08f-3263d4450a57",
+    "challenge_title": "AI Innovation for Transportation using Computer Vision, IoT, Route Optimization",
+    "problem_statement": "Develop a solution to improve transportation operations.",
+    "detailed_description": "We are seeking startups with expertise in Computer Vision, IoT, Route Optimization to build scalable solutions for Transportation.",
+    "sector": "Transportation",
+    "sub_sector": "Transportation Tech",
+    "required_technologies": [
+      "Computer Vision",
+      "IoT",
+      "Route Optimization"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Computer Vision.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 4700000,
+    "budget_max": 8800000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 4,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-24T18:40:05.705174Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "499c8955-5d2a-4cc3-b2cd-8759992b46c0",
+    "challenge_title": "AI Innovation for Water Management using Sensors",
+    "problem_statement": "Develop a solution to improve water management operations.",
+    "detailed_description": "We are seeking startups with expertise in Sensors to build scalable solutions for Water Management.",
+    "sector": "Water Management",
+    "sub_sector": "Water Management Tech",
+    "required_technologies": [
+      "Sensors"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Sensors.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 1700000,
+    "budget_max": 2700000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 10,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-22T18:40:05.705207Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "20a74af2-72e1-4308-b616-2deecb436d99",
+    "challenge_title": "AI Innovation for FinTech using Blockchain",
+    "problem_statement": "Develop a solution to improve fintech operations.",
+    "detailed_description": "We are seeking startups with expertise in Blockchain to build scalable solutions for FinTech.",
+    "sector": "FinTech",
+    "sub_sector": "FinTech Tech",
+    "required_technologies": [
+      "Blockchain"
+    ],
+    "preferred_technologies": [
+      "NLP"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Blockchain.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 1400000,
+    "budget_max": 4400000,
+    "budget_currency": "INR",
+    "location": "Nashik",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 15,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-27T18:40:05.705238Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "15b46f1c-a3f5-410c-952c-d5705a2be4a5",
+    "challenge_title": "AI Innovation for Defence using Cybersecurity, Computer Vision, Drones",
+    "problem_statement": "Develop a solution to improve defence operations.",
+    "detailed_description": "We are seeking startups with expertise in Cybersecurity, Computer Vision, Drones to build scalable solutions for Defence.",
+    "sector": "Defence",
+    "sub_sector": "Defence Tech",
+    "required_technologies": [
+      "Cybersecurity",
+      "Computer Vision",
+      "Drones"
+    ],
+    "preferred_technologies": [
+      "AI"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Cybersecurity.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 4700000,
+    "budget_max": 8200000,
+    "budget_currency": "INR",
+    "location": "Ahmedabad",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 8,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-24T18:40:05.705269Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "44f895f3-ab52-4c68-be7b-108a8c8f3740",
+    "challenge_title": "AI Innovation for Education using Machine Learning, VR/AR, NLP",
+    "problem_statement": "Develop a solution to improve education operations.",
+    "detailed_description": "We are seeking startups with expertise in Machine Learning, VR/AR, NLP to build scalable solutions for Education.",
+    "sector": "Education",
+    "sub_sector": "Education Tech",
+    "required_technologies": [
+      "Machine Learning",
+      "VR/AR",
+      "NLP"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Machine Learning.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 1900000,
+    "budget_max": 4500000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 18,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-03T18:40:05.705300Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "273f72ff-7975-4a29-8788-f7c6ee5beb8e",
+    "challenge_title": "AI Innovation for Tourism using Mobile Tech, Recommendation Systems",
+    "problem_statement": "Develop a solution to improve tourism operations.",
+    "detailed_description": "We are seeking startups with expertise in Mobile Tech, Recommendation Systems to build scalable solutions for Tourism.",
+    "sector": "Tourism",
+    "sub_sector": "Tourism Tech",
+    "required_technologies": [
+      "Mobile Tech",
+      "Recommendation Systems"
+    ],
+    "preferred_technologies": [
+      "NLP",
+      "VR/AR"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Mobile Tech.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 4000000,
+    "budget_max": 7800000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 5,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-31T18:40:05.705333Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "46595dde-9e76-4044-950f-b4eb06b14bd5",
+    "challenge_title": "AI Innovation for Rural Development using Data Analytics",
+    "problem_statement": "Develop a solution to improve rural development operations.",
+    "detailed_description": "We are seeking startups with expertise in Data Analytics to build scalable solutions for Rural Development.",
+    "sector": "Rural Development",
+    "sub_sector": "Rural Development Tech",
+    "required_technologies": [
+      "Data Analytics"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 3,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 3 years of experience and core capability in Data Analytics.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 1400000,
+    "budget_max": 2900000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 9,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-30T18:40:05.705365Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "6f313b7e-04a6-4ad3-bc54-cbea33d1b2a0",
+    "challenge_title": "AI Innovation for Disaster Management using Satellite Imaging, Predictive Analytics, IoT",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in Satellite Imaging, Predictive Analytics, IoT to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "Satellite Imaging",
+      "Predictive Analytics",
+      "IoT"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 3,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 3 years of experience and core capability in Satellite Imaging.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 3100000,
+    "budget_max": 4600000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 8,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-23T18:40:05.705396Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "ee7cc185-e6f3-41ed-af6b-fbf4a2d996e3",
+    "challenge_title": "AI Innovation for Water Management using Sensors, Machine Learning",
+    "problem_statement": "Develop a solution to improve water management operations.",
+    "detailed_description": "We are seeking startups with expertise in Sensors, Machine Learning to build scalable solutions for Water Management.",
+    "sector": "Water Management",
+    "sub_sector": "Water Management Tech",
+    "required_technologies": [
+      "Sensors",
+      "Machine Learning"
+    ],
+    "preferred_technologies": [
+      "IoT"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Sensors.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 3100000,
+    "budget_max": 4500000,
+    "budget_currency": "INR",
+    "location": "Ahmedabad",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 5,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-12T18:40:05.705426Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "ec805924-9f72-44dd-aa2d-a2a4f2ef4276",
+    "challenge_title": "AI Innovation for Cybersecurity using Cryptography, Network Security",
+    "problem_statement": "Develop a solution to improve cybersecurity operations.",
+    "detailed_description": "We are seeking startups with expertise in Cryptography, Network Security to build scalable solutions for Cybersecurity.",
+    "sector": "Cybersecurity",
+    "sub_sector": "Cybersecurity Tech",
+    "required_technologies": [
+      "Cryptography",
+      "Network Security"
+    ],
+    "preferred_technologies": [
+      "AI"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Cryptography.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 1500000,
+    "budget_max": 4400000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 14,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-26T18:40:05.705459Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "7b33abe6-5813-4f74-a374-5ec39b676bcd",
+    "challenge_title": "AI Innovation for Water Management using Sensors",
+    "problem_statement": "Develop a solution to improve water management operations.",
+    "detailed_description": "We are seeking startups with expertise in Sensors to build scalable solutions for Water Management.",
+    "sector": "Water Management",
+    "sub_sector": "Water Management Tech",
+    "required_technologies": [
+      "Sensors"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 5,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 5 years of experience and core capability in Sensors.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 4100000,
+    "budget_max": 6300000,
+    "budget_currency": "INR",
+    "location": "Mumbai",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 4,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-05T18:40:05.705492Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "600c64a8-0925-4dcf-a823-85629ecf3ba1",
+    "challenge_title": "AI Innovation for Skill Development using Recommendation Systems",
+    "problem_statement": "Develop a solution to improve skill development operations.",
+    "detailed_description": "We are seeking startups with expertise in Recommendation Systems to build scalable solutions for Skill Development.",
+    "sector": "Skill Development",
+    "sub_sector": "Skill Development Tech",
+    "required_technologies": [
+      "Recommendation Systems"
+    ],
+    "preferred_technologies": [
+      "VR/AR",
+      "Machine Learning"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Recommendation Systems.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 4900000,
+    "budget_max": 6900000,
+    "budget_currency": "INR",
+    "location": "Indore",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 12,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-11-06T18:40:05.705523Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "a67da432-3c5a-445d-a9b9-607bb83a9650",
+    "challenge_title": "AI Innovation for Renewable Energy using Smart Grids, IoT, Predictive Analytics",
+    "problem_statement": "Develop a solution to improve renewable energy operations.",
+    "detailed_description": "We are seeking startups with expertise in Smart Grids, IoT, Predictive Analytics to build scalable solutions for Renewable Energy.",
+    "sector": "Renewable Energy",
+    "sub_sector": "Renewable Energy Tech",
+    "required_technologies": [
+      "Smart Grids",
+      "IoT",
+      "Predictive Analytics"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Smart Grids.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 4600000,
+    "budget_max": 8400000,
+    "budget_currency": "INR",
+    "location": "Chandigarh",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 7,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-20T18:40:05.705553Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "af6464d4-e6e9-471d-9c3b-af40fced71c8",
+    "challenge_title": "AI Innovation for Disaster Management using Satellite Imaging, Drones",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in Satellite Imaging, Drones to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "Satellite Imaging",
+      "Drones"
+    ],
+    "preferred_technologies": [
+      "IoT",
+      "Predictive Analytics"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Satellite Imaging.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 2000000,
+    "budget_max": 4700000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 14,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-19T18:40:05.705595Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "cee649d5-17c9-4ee1-9fc9-a2073fdd067b",
+    "challenge_title": "AI Innovation for Healthcare using Data Analytics, Computer Vision",
+    "problem_statement": "Develop a solution to improve healthcare operations.",
+    "detailed_description": "We are seeking startups with expertise in Data Analytics, Computer Vision to build scalable solutions for Healthcare.",
+    "sector": "Healthcare",
+    "sub_sector": "Healthcare Tech",
+    "required_technologies": [
+      "Data Analytics",
+      "Computer Vision"
+    ],
+    "preferred_technologies": [
+      "Wearables",
+      "Medical AI"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Data Analytics.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 1100000,
+    "budget_max": 4100000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 18,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "High",
+    "application_deadline": "2026-09-27T18:40:05.705629Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "c9ae446d-0cec-4ed8-b1b7-bf7206314550",
+    "challenge_title": "AI Innovation for Disaster Management using Satellite Imaging, IoT",
+    "problem_statement": "Develop a solution to improve disaster management operations.",
+    "detailed_description": "We are seeking startups with expertise in Satellite Imaging, IoT to build scalable solutions for Disaster Management.",
+    "sector": "Disaster Management",
+    "sub_sector": "Disaster Management Tech",
+    "required_technologies": [
+      "Satellite Imaging",
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Drones",
+      "Predictive Analytics"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Satellite Imaging.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 1900000,
+    "budget_max": 6400000,
+    "budget_currency": "INR",
+    "location": "Hyderabad",
+    "deployment_environment": "On-Premise",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 6,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-11-06T18:40:05.705662Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "e528eb83-f214-4ffd-8fdd-d075a3c70218",
+    "challenge_title": "AI Innovation for Governance using Blockchain, NLP, Data Analytics",
+    "problem_statement": "Develop a solution to improve governance operations.",
+    "detailed_description": "We are seeking startups with expertise in Blockchain, NLP, Data Analytics to build scalable solutions for Governance.",
+    "sector": "Governance",
+    "sub_sector": "Governance Tech",
+    "required_technologies": [
+      "Blockchain",
+      "NLP",
+      "Data Analytics"
+    ],
+    "preferred_technologies": [
+      "OCR",
+      "Machine Learning"
+    ],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Blockchain.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 4600000,
+    "budget_max": 7100000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 16,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-11-05T18:40:05.705696Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "b9f04e83-3bb9-41f6-997a-3d6f215e51ef",
+    "challenge_title": "AI Innovation for Agriculture using Computer Vision, Drones, IoT",
+    "problem_statement": "Develop a solution to improve agriculture operations.",
+    "detailed_description": "We are seeking startups with expertise in Computer Vision, Drones, IoT to build scalable solutions for Agriculture.",
+    "sector": "Agriculture",
+    "sub_sector": "Agriculture Tech",
+    "required_technologies": [
+      "Computer Vision",
+      "Drones",
+      "IoT"
+    ],
+    "preferred_technologies": [
+      "Satellite Imaging"
+    ],
+    "minimum_experience_years": 0,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 0 years of experience and core capability in Computer Vision.",
+    "preferred_startup_stage": "Early Traction",
+    "budget_min": 3400000,
+    "budget_max": 6700000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 6,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Low",
+    "application_deadline": "2026-10-07T18:40:05.705731Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "ea929030-c88a-4386-886c-ee28fb327c28",
+    "challenge_title": "AI Innovation for Waste Management using Computer Vision",
+    "problem_statement": "Develop a solution to improve waste management operations.",
+    "detailed_description": "We are seeking startups with expertise in Computer Vision to build scalable solutions for Waste Management.",
+    "sector": "Waste Management",
+    "sub_sector": "Waste Management Tech",
+    "required_technologies": [
+      "Computer Vision"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "SOC 2"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Computer Vision.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 2100000,
+    "budget_max": 6000000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 12,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-11-04T18:40:05.705763Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "f9e8e78a-8550-42bc-9ed0-6a9902ea4264",
+    "challenge_title": "AI Innovation for Transportation using Computer Vision",
+    "problem_statement": "Develop a solution to improve transportation operations.",
+    "detailed_description": "We are seeking startups with expertise in Computer Vision to build scalable solutions for Transportation.",
+    "sector": "Transportation",
+    "sub_sector": "Transportation Tech",
+    "required_technologies": [
+      "Computer Vision"
+    ],
+    "preferred_technologies": [
+      "Predictive Maintenance"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in Computer Vision.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 4400000,
+    "budget_max": 8400000,
+    "budget_currency": "INR",
+    "location": "Ahmedabad",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "National Level",
+    "expected_timeline_months": 13,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-10-07T18:40:05.705793Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "e257edbd-289c-420b-9e7f-fbd7e8aee60e",
+    "challenge_title": "AI Innovation for FinTech using NLP, Fraud Detection",
+    "problem_statement": "Develop a solution to improve fintech operations.",
+    "detailed_description": "We are seeking startups with expertise in NLP, Fraud Detection to build scalable solutions for FinTech.",
+    "sector": "FinTech",
+    "sub_sector": "FinTech Tech",
+    "required_technologies": [
+      "NLP",
+      "Fraud Detection"
+    ],
+    "preferred_technologies": [
+      "AI"
+    ],
+    "minimum_experience_years": 5,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 5 years of experience and core capability in NLP.",
+    "preferred_startup_stage": "Growth",
+    "budget_min": 4100000,
+    "budget_max": 8200000,
+    "budget_currency": "INR",
+    "location": "Mumbai",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 8,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-14T18:40:05.705824Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "f97cc012-a3a3-460a-ab5d-6b3d5546bf7c",
+    "challenge_title": "AI Innovation for Waste Management using Computer Vision",
+    "problem_statement": "Develop a solution to improve waste management operations.",
+    "detailed_description": "We are seeking startups with expertise in Computer Vision to build scalable solutions for Waste Management.",
+    "sector": "Waste Management",
+    "sub_sector": "Waste Management Tech",
+    "required_technologies": [
+      "Computer Vision"
+    ],
+    "preferred_technologies": [],
+    "minimum_experience_years": 2,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 2 years of experience and core capability in Computer Vision.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 2900000,
+    "budget_max": 6700000,
+    "budget_currency": "INR",
+    "location": "New Delhi",
+    "deployment_environment": "Hybrid",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 4,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Service",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-10-29T18:40:05.705857Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "926fbdad-d167-4455-8dea-3e5697ddb9c4",
+    "challenge_title": "AI Innovation for Skill Development using VR/AR, Recommendation Systems",
+    "problem_statement": "Develop a solution to improve skill development operations.",
+    "detailed_description": "We are seeking startups with expertise in VR/AR, Recommendation Systems to build scalable solutions for Skill Development.",
+    "sector": "Skill Development",
+    "sub_sector": "Skill Development Tech",
+    "required_technologies": [
+      "VR/AR",
+      "Recommendation Systems"
+    ],
+    "preferred_technologies": [
+      "NLP"
+    ],
+    "minimum_experience_years": 1,
+    "required_certifications": [
+      "None"
+    ],
+    "eligibility_requirements": "Must have 1 years of experience and core capability in VR/AR.",
+    "preferred_startup_stage": "Any",
+    "budget_min": 2000000,
+    "budget_max": 3100000,
+    "budget_currency": "INR",
+    "location": "Pan India",
+    "deployment_environment": "Cloud",
+    "scalability_requirement": "City Level",
+    "expected_timeline_months": 14,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Hardware & Software",
+    "challenge_priority": "Medium",
+    "application_deadline": "2026-09-30T18:40:05.705886Z",
+    "status": "Open"
+  },
+  {
+    "challenge_id": "92b97765-6f3e-40bb-8e7e-728edd7445a8",
+    "challenge_title": "AI Innovation for Tourism using NLP",
+    "problem_statement": "Develop a solution to improve tourism operations.",
+    "detailed_description": "We are seeking startups with expertise in NLP to build scalable solutions for Tourism.",
+    "sector": "Tourism",
+    "sub_sector": "Tourism Tech",
+    "required_technologies": [
+      "NLP"
+    ],
+    "preferred_technologies": [
+      "Mobile Tech",
+      "Recommendation Systems"
+    ],
+    "minimum_experience_years": 5,
+    "required_certifications": [
+      "ISO 27001"
+    ],
+    "eligibility_requirements": "Must have 5 years of experience and core capability in NLP.",
+    "preferred_startup_stage": "Scaling",
+    "budget_min": 3300000,
+    "budget_max": 7100000,
+    "budget_currency": "INR",
+    "location": "Chandigarh",
+    "deployment_environment": "Edge",
+    "scalability_requirement": "State Level",
+    "expected_timeline_months": 11,
+    "expected_outcomes": "Demonstrable prototype, successful pilot, and scalable production deployment.",
+    "key_performance_indicators": [
+      "System Uptime",
+      "User Adoption",
+      "Processing Speed"
+    ],
+    "procurement_category": "Software",
+    "challenge_priority": "High",
+    "application_deadline": "2026-11-08T18:40:05.705915Z",
+    "status": "Open"
+  }
+]

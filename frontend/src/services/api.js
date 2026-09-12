@@ -17,16 +17,35 @@ import {
 import { expertMentors } from '../data/expertMentors';
 import { rankExpertsForChallenge } from '../lib/expertMatching';
 
-// Simulate network delay
+// Simulate network delay for non-migrated endpoints
 const delay = (ms = 300) => new Promise(resolve => setTimeout(resolve, ms));
+
+const BASE_URL = 'http://localhost:8000/api';
+
+async function fetchAPI(endpoint, options = {}) {
+  const token = localStorage.getItem('ipps_token') || sessionStorage.getItem('ipps_token');
+  const headers = {
+    'Content-Type': 'application/json',
+    ...(token && { Authorization: `Bearer ${token}` }),
+    ...options.headers,
+  };
+  
+  const response = await fetch(`${BASE_URL}${endpoint}`, { ...options, headers });
+  if (!response.ok) {
+    const error = await response.json().catch(() => ({}));
+    throw new Error(error.detail || 'API request failed');
+  }
+  return response.json();
+}
 
 // ========== AUTH API ==========
 export const authAPI = {
-  login: async (role, _email, _password) => {
-    await delay(600);
-    const user = mockUsers[role];
-    if (!user) throw new Error('Invalid role');
-    return { success: true, user, token: `mock-token-${role}-${Date.now()}` };
+  login: async (role, email, password) => {
+    const response = await fetchAPI('/auth/login', {
+      method: 'POST',
+      body: JSON.stringify({ role, email, password }),
+    });
+    return response;
   },
 
   logout: async () => {
@@ -35,17 +54,17 @@ export const authAPI = {
   },
 
   getCurrentUser: async (token) => {
-    await delay(200);
-    const role = token?.split('-')[2];
-    return mockUsers[role] || null;
+    const response = await fetchAPI('/auth/me', {
+      headers: { Authorization: `Bearer ${token}` }
+    });
+    return response;
   },
 };
 
 // ========== CHALLENGES API ==========
 export const challengesAPI = {
   getAll: async (filters = {}) => {
-    await delay(400);
-    let challenges = [...mockChallenges];
+    let challenges = await fetchAPI('/challenges');
     if (filters.sector) challenges = challenges.filter(c => c.sector === filters.sector);
     if (filters.department) challenges = challenges.filter(c => c.department === filters.department);
     if (filters.status) challenges = challenges.filter(c => c.status === filters.status);
@@ -57,23 +76,15 @@ export const challengesAPI = {
   },
 
   getById: async (id) => {
-    await delay(300);
-    const challenge = mockChallenges.find(c => c.id === id);
-    if (!challenge) throw new Error('Challenge not found');
-    return challenge;
+    return await fetchAPI(`/challenges/${id}`);
   },
 
   create: async (data) => {
-    await delay(600);
-    const newChallenge = {
-      ...data,
-      id: `CH-2024-00${mockChallenges.length + 1}`,
-      applications: 0,
-      shortlisted: 0,
-      status: 'Draft',
-      publishedDate: null,
-    };
-    return { success: true, challenge: newChallenge };
+    const challenge = await fetchAPI('/challenges', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+    return { success: true, challenge };
   },
 
   update: async (id, data) => {
@@ -90,15 +101,11 @@ export const challengesAPI = {
 // ========== STARTUPS API ==========
 export const startupsAPI = {
   getAll: async () => {
-    await delay(400);
-    return mockStartups;
+    return await fetchAPI('/startups');
   },
 
   getById: async (id) => {
-    await delay(300);
-    const startup = mockStartups.find(s => s.id === id);
-    if (!startup) throw new Error('Startup not found');
-    return startup;
+    return await fetchAPI(`/startups/${id}`);
   },
 
   updateProfile: async (id, data) => {
@@ -110,25 +117,21 @@ export const startupsAPI = {
 // ========== APPLICATIONS API ==========
 export const applicationsAPI = {
   getAll: async (challengeId) => {
-    await delay(400);
-    if (challengeId) return mockApplications.filter(a => a.challengeId === challengeId);
-    return mockApplications;
+    const url = challengeId ? `/applications?challenge_id=${challengeId}` : '/applications';
+    return await fetchAPI(url);
   },
 
   getById: async (id) => {
     await delay(300);
-    return mockApplications.find(a => a.id === id);
+    return mockApplications.find(a => a.id === id); // Mock fallback for single app if not implemented yet
   },
 
   submit: async (data) => {
-    await delay(800);
-    const newApp = {
-      ...data,
-      id: `APP-2024-00${mockApplications.length + 1}`,
-      submittedDate: new Date().toISOString().split('T')[0],
-      status: 'Submitted',
-    };
-    return { success: true, application: newApp };
+    const application = await fetchAPI('/applications', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+    return { success: true, application };
   },
 
   updateStatus: async (id, status) => {
@@ -196,13 +199,19 @@ export const paymentsAPI = {
 export const matchingAPI = {
   getMatches: async (role, entityId) => {
     await delay(800);
-    // Simulate AI matching computation delay
     return mockMatchingData;
   },
 
-  runEngine: async () => {
-    await delay(1200);
-    return { success: true, matches: mockMatchingData, computedAt: new Date().toISOString() };
+  runEngine: async (challengeId) => {
+    if (!challengeId) {
+       // fallback for when it's just a general click without context
+       challengeId = "CH-2024-001"; 
+    }
+    const result = await fetchAPI('/matching/analyze', {
+      method: 'POST',
+      body: JSON.stringify({ challenge_id: challengeId })
+    });
+    return { success: true, matches: result.results, computedAt: new Date().toISOString() };
   },
 };
 
