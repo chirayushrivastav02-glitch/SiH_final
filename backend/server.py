@@ -59,13 +59,16 @@ async def get_status_checks():
     return [StatusCheck(**status_check) for status_check in status_checks]
 
 # Include the routers in the main app
-from routers import matching, auth, challenges, startups, applications, pilot_evaluation
+from routers import matching, auth, challenges, startups, applications, pilot_evaluation, payments, waivers, refunds
 api_router.include_router(matching.router)
 api_router.include_router(auth.router)
 api_router.include_router(challenges.router)
 api_router.include_router(startups.router)
 api_router.include_router(applications.router)
 api_router.include_router(pilot_evaluation.router)
+api_router.include_router(payments.router)
+api_router.include_router(waivers.router)
+api_router.include_router(refunds.router)
 app.include_router(api_router)
 
 app.add_middleware(

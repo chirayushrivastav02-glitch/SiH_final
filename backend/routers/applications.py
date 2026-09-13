@@ -52,7 +52,7 @@ async def submit_application(app_data: dict):
     new_app["startup_id"] = new_app.get("startupId", "")
     new_app["startup_name"] = new_app.get("startupName", "Unknown")
     new_app["submission_date"] = datetime.now().strftime("%Y-%m-%d")
-    new_app["status"] = "Submitted"
+    new_app["status"] = app_data.get("status", "Submitted")
     
     await db.synthetic_applications.insert_one(new_app)
     new_app.pop("_id", None)

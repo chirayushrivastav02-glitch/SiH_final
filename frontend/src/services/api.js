@@ -184,15 +184,69 @@ export const contractsAPI = {
 
 // ========== PAYMENTS API ==========
 export const paymentsAPI = {
-  getAll: async () => {
-    await delay(400);
-    return mockPayments;
+  createOrder: async (challengeId, applicationId) => {
+    return await fetchAPI('/payments/create-order', {
+      method: 'POST',
+      body: JSON.stringify({ challenge_id: challengeId, application_id: applicationId })
+    });
   },
+  verifyPayment: async (data) => {
+    return await fetchAPI('/payments/verify', {
+      method: 'POST',
+      body: JSON.stringify(data)
+    });
+  },
+  getMyPayments: async () => {
+    return await fetchAPI('/payments/my-payments');
+  },
+  getAdminPayments: async () => {
+    return await fetchAPI('/payments/admin/payments');
+  }
+};
 
-  initiate: async (id) => {
-    await delay(600);
-    return { success: true, message: 'Payment initiated', transactionId: `NEFT${Date.now()}` };
+// ========== WAIVERS API ==========
+export const waiversAPI = {
+  createWaiver: async (data) => {
+    return await fetchAPI('/fee-waivers', {
+      method: 'POST',
+      body: JSON.stringify(data)
+    });
   },
+  getMyWaivers: async () => {
+    return await fetchAPI('/fee-waivers/my-requests');
+  },
+  getAdminWaivers: async () => {
+    return await fetchAPI('/admin/fee-waivers');
+  },
+  reviewWaiver: async (waiverId, status, remarks) => {
+    return await fetchAPI(`/fee-waivers/${waiverId}`, {
+      method: 'PATCH',
+      body: JSON.stringify({ status, reviewer_remarks: remarks })
+    });
+  }
+};
+
+// ========== REFUNDS API ==========
+export const refundsAPI = {
+  checkEligibility: async (paymentId) => {
+    return await fetchAPI(`/payments/${paymentId}/refund-eligibility`);
+  },
+  requestRefund: async (paymentId) => {
+    return await fetchAPI(`/payments/${paymentId}/refund-request`, {
+      method: 'POST'
+    });
+  },
+  initiateRefund: async (refundId) => {
+    return await fetchAPI(`/admin/refunds/${refundId}/initiate`, {
+      method: 'POST'
+    });
+  },
+  getMyRefunds: async () => {
+    return await fetchAPI('/refunds/my-refunds');
+  },
+  getAdminRefunds: async () => {
+    return await fetchAPI('/admin/refunds');
+  }
 };
 
 // ========== MATCHING API ==========
