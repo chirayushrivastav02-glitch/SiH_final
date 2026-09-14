@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { platformStats } from '../../data/mockData';
+import InnovationHeatmap from '../../components/InnovationHeatmap';
 import {
   ArrowRight, CheckCircle, ChevronRight, Menu, X, Globe, Shield,
   Zap, TrendingUp, Users, Target, BarChart3, Star, Sun, Moon
@@ -235,6 +236,9 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      {/* Innovation Intelligence Heatmap Section */}
+      <InnovationHeatmap />
 
       {/* Process Flow */}
       <section style={{ padding: '80px 64px', background: 'var(--bg-secondary)' }}>
