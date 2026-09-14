@@ -636,12 +636,13 @@ export default function InnovationHeatmap() {
                     const activeDistInfo = districtData.find(d => d.districtKey === dist.id || dist.id.includes(d.district.toLowerCase().replace(' ', '-')));
                     const hasProblems = !!activeDistInfo;
 
-                    const isDistrictHovered = hoveredDistrictId && (hoveredDistrictId === activeDistInfo?.id);
-                    const isDistrictSelected = selectedDistrictId && (selectedDistrictId === activeDistInfo?.id);
+                    const isDistrictHovered = (hoveredDistrictId && (hoveredDistrictId === activeDistInfo?.id));
+                    const isDistrictSelected = (selectedDistrictId && (selectedDistrictId === activeDistInfo?.id));
+                    const isPopupActive = isDistrictHovered || isDistrictSelected;
 
-                    const strokeColor = (isDistrictHovered || isDistrictSelected) ? '#38bdf8' : 'rgba(255, 255, 255, 0.22)';
-                    const strokeWidth = (isDistrictHovered || isDistrictSelected) ? 1.8 : 0.5;
-                    const fillColor = isDistrictHovered ? '#1e3e6b' : isDistrictSelected ? '#153258' : hasProblems ? '#0c2242' : '#071526';
+                    const strokeColor = isPopupActive ? '#000000' : '#e5e7eb';
+                    const strokeWidth = isPopupActive ? 1.5 : 0.5;
+                    const fillColor = isPopupActive && hasProblems ? '#dc2626' : hasProblems ? '#ef4444' : '#ffffff';
 
                     return (
                       <path
@@ -673,35 +674,16 @@ export default function InnovationHeatmap() {
                       key={`state-border-${idx}`}
                       d={sb.combinedPath}
                       fill="none"
-                      stroke="#ffffff"
-                      strokeWidth="1.5"
-                      strokeOpacity="0.88"
+                      stroke="#9ca3af"
+                      strokeWidth="1.2"
+                      strokeOpacity="0.8"
                       strokeLinejoin="round"
                       strokeLinecap="round"
                     />
                   ))}
                 </g>
 
-                {/* DYNAMIC THERMAL HEATMAP DEMAND SPECTRUM (High Demand Red/Orange -> Medium Yellow -> Low Green) */}
-                <g clipPath="url(#officialIndiaDistrictClip)" filter="url(#officialThermalBlur)" pointerEvents="none">
-                  {districtData.map(d => {
-                    const ratio = d.totalProblems / maxProblems;
-                    const radius = 50 + ratio * 80;
-                    const opacity = 0.65 + ratio * 0.3;
-                    const color = d.heatColor; // Red/Orange for High Demand, Yellow/Green for Medium
-
-                    return (
-                      <circle
-                        key={`thermal-${d.id}`}
-                        cx={d.mapCoords.x}
-                        cy={d.mapCoords.y}
-                        r={radius}
-                        fill={color}
-                        opacity={opacity}
-                      />
-                    );
-                  })}
-                </g>
+                {/* Removed Dynamic Thermal Heatmap Circles per user request */}
 
                 {/* EXACT DISTRICT-LEVEL HOTSPOT PINS & NODES */}
                 {districtData.map(d => {
@@ -760,9 +742,10 @@ export default function InnovationHeatmap() {
                   );
                 })}
 
-                {/* HOVER GLASS POPUP CARD OVER DISTRICT MAP — ONLY SHOWN WHEN HOVERED! */}
-                {hoveredDistrictId && (() => {
-                  const hoveredDist = districtData.find(d => d.id === hoveredDistrictId);
+                {/* HOVER GLASS POPUP CARD OVER DISTRICT MAP — ONLY SHOWN WHEN HOVERED OR SELECTED! */}
+                {(hoveredDistrictId || selectedDistrictId) && (() => {
+                  const activePopupId = hoveredDistrictId || selectedDistrictId;
+                  const hoveredDist = districtData.find(d => d.id === activePopupId);
                   if (!hoveredDist) return null;
 
                   return (
