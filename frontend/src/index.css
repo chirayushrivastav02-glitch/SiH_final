@@ -102,6 +102,24 @@
   --radius-lg: 14px;
   --radius-xl: 20px;
   --radius-full: 9999px;
+
+  /* Heatmap Variables (Dark Mode Default) */
+  --hm-bg: #071224;
+  --hm-border: rgba(255, 255, 255, 0.08);
+  --hm-panel: #0d1f38;
+  --hm-panel-inner: #0a1628;
+  --hm-map-bg: radial-gradient(ellipse at 50% 50%, #0a1b33 0%, #050d1a 100%);
+  --hm-text-main: #ffffff;
+  --hm-text-muted: #94a3b8;
+  --hm-district-empty: #ffffff;
+  --hm-3d-base1: #000511;
+  --hm-3d-base2: #010a1c;
+  --hm-3d-base3: #021433;
+  --hm-3d-base4: #052554;
+  --hm-glass-bg: rgba(8, 20, 38, 0.95);
+  --hm-btn-bg: rgba(255, 255, 255, 0.05);
+  --hm-btn-border: rgba(255, 255, 255, 0.15);
+  --hm-glow: radial-gradient(circle, rgba(13,148,136,0.08) 0%, transparent 70%);
 }
 
 html.light {
@@ -116,6 +134,24 @@ html.light {
   --text-muted: var(--gray-500);
   --border-color: var(--gray-200);
   --bg-table-head: var(--gray-100);
+
+  /* Heatmap Variables (Light Mode) */
+  --hm-bg: #f8fafc;
+  --hm-border: rgba(0, 0, 0, 0.1);
+  --hm-panel: #ffffff;
+  --hm-panel-inner: #f1f5f9;
+  --hm-map-bg: radial-gradient(ellipse at 50% 50%, #f1f5f9 0%, #e2e8f0 100%);
+  --hm-text-main: #0f172a;
+  --hm-text-muted: #64748b;
+  --hm-district-empty: #ffffff;
+  --hm-3d-base1: #cbd5e1;
+  --hm-3d-base2: #94a3b8;
+  --hm-3d-base3: #64748b;
+  --hm-3d-base4: #475569;
+  --hm-glass-bg: rgba(255, 255, 255, 0.95);
+  --hm-btn-bg: #ffffff;
+  --hm-btn-border: rgba(0, 0, 0, 0.1);
+  --hm-glow: radial-gradient(circle, rgba(13,148,136,0.04) 0%, transparent 70%);
 }
 
 /* ========== RESET & BASE ========== */

@@ -347,16 +347,16 @@ export default function InnovationHeatmap() {
   return (
     <section className="innovation-heatmap-section" style={{
       padding: '56px 32px',
-      background: '#071224',
-      borderTop: '1px solid rgba(255, 255, 255, 0.08)',
-      borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
+      background: 'var(--hm-bg)',
+      borderTop: '1px solid var(--hm-border)',
+      borderBottom: '1px solid var(--hm-border)',
       position: 'relative',
       overflow: 'hidden',
     }}>
       {/* Background Glow Ambiance */}
       <div style={{
         position: 'absolute', top: -80, left: '15%', width: 600, height: 600,
-        background: 'radial-gradient(circle, rgba(13,148,136,0.08) 0%, transparent 70%)',
+        background: 'var(--hm-glow)',
         pointerEvents: 'none', filter: 'blur(50px)'
       }} />
 
@@ -378,7 +378,7 @@ export default function InnovationHeatmap() {
               fontFamily: 'var(--font-display)',
               fontSize: 'clamp(28px, 3.5vw, 40px)',
               fontWeight: 800,
-              color: '#ffffff',
+              color: 'var(--hm-text-main)',
               lineHeight: 1.1,
               margin: 0
             }}>
@@ -399,7 +399,7 @@ export default function InnovationHeatmap() {
             
             {/* View By */}
             <div style={{
-              background: '#0d1f38', border: '1px solid rgba(255, 255, 255, 0.1)',
+              background: 'var(--hm-panel)', border: '1px solid var(--hm-border)',
               borderRadius: 'var(--radius-lg)', padding: '8px 14px',
               display: 'flex', alignItems: 'center', gap: 10, cursor: 'pointer'
             }}>
@@ -415,13 +415,13 @@ export default function InnovationHeatmap() {
                   value={viewBy}
                   onChange={e => setViewBy(e.target.value)}
                   style={{
-                    background: 'transparent', border: 'none', color: '#ffffff',
+                    background: 'transparent', border: 'none', color: 'var(--hm-text-main)',
                     fontSize: 13, fontWeight: 700, outline: 'none', cursor: 'pointer', paddingRight: 4
                   }}
                 >
-                  <option value="Problem Demand" style={{ background: '#0d1f38' }}>Problem Demand</option>
-                  <option value="Total Budget" style={{ background: '#0d1f38' }}>Total Budget</option>
-                  <option value="Qualified Startups" style={{ background: '#0d1f38' }}>Qualified Startups</option>
+                  <option value="Problem Demand" style={{ background: 'var(--hm-panel)' }}>Problem Demand</option>
+                  <option value="Total Budget" style={{ background: 'var(--hm-panel)' }}>Total Budget</option>
+                  <option value="Qualified Startups" style={{ background: 'var(--hm-panel)' }}>Qualified Startups</option>
                 </select>
               </div>
               <ChevronDown size={14} style={{ color: '#64748b' }} />
@@ -429,7 +429,7 @@ export default function InnovationHeatmap() {
 
             {/* Category */}
             <div style={{
-              background: '#0d1f38', border: '1px solid rgba(255, 255, 255, 0.1)',
+              background: 'var(--hm-panel)', border: '1px solid var(--hm-border)',
               borderRadius: 'var(--radius-lg)', padding: '8px 14px',
               display: 'flex', alignItems: 'center', gap: 10, cursor: 'pointer'
             }}>
@@ -445,16 +445,16 @@ export default function InnovationHeatmap() {
                   value={categoryFilter}
                   onChange={e => setCategoryFilter(e.target.value)}
                   style={{
-                    background: 'transparent', border: 'none', color: '#ffffff',
+                    background: 'transparent', border: 'none', color: 'var(--hm-text-main)',
                     fontSize: 13, fontWeight: 700, outline: 'none', cursor: 'pointer'
                   }}
                 >
-                  <option value="All Categories" style={{ background: '#0d1f38' }}>All Categories</option>
-                  <option value="Healthcare" style={{ background: '#0d1f38' }}>Healthcare</option>
-                  <option value="Infrastructure" style={{ background: '#0d1f38' }}>Infrastructure</option>
-                  <option value="Transport" style={{ background: '#0d1f38' }}>Transport</option>
-                  <option value="Environment" style={{ background: '#0d1f38' }}>Environment</option>
-                  <option value="Education" style={{ background: '#0d1f38' }}>Education</option>
+                  <option value="All Categories" style={{ background: 'var(--hm-panel)' }}>All Categories</option>
+                  <option value="Healthcare" style={{ background: 'var(--hm-panel)' }}>Healthcare</option>
+                  <option value="Infrastructure" style={{ background: 'var(--hm-panel)' }}>Infrastructure</option>
+                  <option value="Transport" style={{ background: 'var(--hm-panel)' }}>Transport</option>
+                  <option value="Environment" style={{ background: 'var(--hm-panel)' }}>Environment</option>
+                  <option value="Education" style={{ background: 'var(--hm-panel)' }}>Education</option>
                 </select>
               </div>
               <ChevronDown size={14} style={{ color: '#64748b' }} />
@@ -462,7 +462,7 @@ export default function InnovationHeatmap() {
 
             {/* Time Period */}
             <div style={{
-              background: '#0d1f38', border: '1px solid rgba(255, 255, 255, 0.1)',
+              background: 'var(--hm-panel)', border: '1px solid var(--hm-border)',
               borderRadius: 'var(--radius-lg)', padding: '8px 14px',
               display: 'flex', alignItems: 'center', gap: 10, cursor: 'pointer'
             }}>
@@ -478,13 +478,13 @@ export default function InnovationHeatmap() {
                   value={timePeriod}
                   onChange={e => setTimePeriod(e.target.value)}
                   style={{
-                    background: 'transparent', border: 'none', color: '#ffffff',
+                    background: 'transparent', border: 'none', color: 'var(--hm-text-main)',
                     fontSize: 13, fontWeight: 700, outline: 'none', cursor: 'pointer'
                   }}
                 >
-                  <option value="Last 2 Years" style={{ background: '#0d1f38' }}>Last 2 Years</option>
-                  <option value="Last 1 Year" style={{ background: '#0d1f38' }}>Last 1 Year</option>
-                  <option value="All Time" style={{ background: '#0d1f38' }}>All Time</option>
+                  <option value="Last 2 Years" style={{ background: 'var(--hm-panel)' }}>Last 2 Years</option>
+                  <option value="Last 1 Year" style={{ background: 'var(--hm-panel)' }}>Last 1 Year</option>
+                  <option value="All Time" style={{ background: 'var(--hm-panel)' }}>All Time</option>
                 </select>
               </div>
               <ChevronDown size={14} style={{ color: '#64748b' }} />
@@ -504,8 +504,8 @@ export default function InnovationHeatmap() {
           
           {/* LEFT: 3D INDIA VECTOR MAP CANVAS (594 Real Administrative Districts!) */}
           <div style={{
-            background: 'radial-gradient(ellipse at 50% 50%, #0a1b33 0%, #050d1a 100%)',
-            border: '1px solid rgba(255, 255, 255, 0.08)',
+            background: 'var(--hm-map-bg)',
+            border: '1px solid var(--hm-border)',
             borderRadius: 'var(--radius-xl)',
             padding: '24px',
             position: 'relative',
@@ -521,8 +521,8 @@ export default function InnovationHeatmap() {
             <div style={{
               position: 'absolute', top: 20, left: 20, zIndex: 10,
               display: 'flex', flexDirection: 'column', gap: 4,
-              background: 'rgba(10, 25, 47, 0.85)',
-              border: '1px solid rgba(255, 255, 255, 0.1)',
+              background: 'var(--hm-glass-bg)',
+              border: '1px solid var(--hm-border)',
               borderRadius: 'var(--radius-md)', padding: 4, backdropFilter: 'blur(8px)'
             }}>
               <button
@@ -596,29 +596,29 @@ export default function InnovationHeatmap() {
                 </defs>
 
                 {/* Water Body Names */}
-                <text x="40" y="420" fill="rgba(255, 255, 255, 0.08)" fontSize="12" fontWeight="700" letterSpacing="0.1em">ARABIAN SEA</text>
-                <text x="460" y="520" fill="rgba(255, 255, 255, 0.08)" fontSize="12" fontWeight="700" letterSpacing="0.1em">BAY OF BENGAL</text>
-                <text x="240" y="670" fill="rgba(255, 255, 255, 0.08)" fontSize="12" fontWeight="700" letterSpacing="0.1em">INDIAN OCEAN</text>
+                <text x="40" y="420" fill="var(--hm-text-muted)" fontSize="12" fontWeight="700" letterSpacing="0.1em">ARABIAN SEA</text>
+                <text x="460" y="520" fill="var(--hm-text-muted)" fontSize="12" fontWeight="700" letterSpacing="0.1em">BAY OF BENGAL</text>
+                <text x="240" y="670" fill="var(--hm-text-muted)" fontSize="12" fontWeight="700" letterSpacing="0.1em">INDIAN OCEAN</text>
 
                 {/* 3D ISOMETRIC EXTENSION: Physical 20px cliff slab only rendered in 3D mode */}
                 {is3DView && (
                   <g pointerEvents="none">
-                    <g transform="translate(8, 22)" fill="#000511" opacity="0.95">
+                    <g transform="translate(8, 22)" fill="var(--hm-3d-base1)" opacity="0.95">
                       {indiaDistrictSvgData.districts.map((dist, idx) => (
                         <path key={`3d-base-shadow-${idx}`} d={dist.path} />
                       ))}
                     </g>
-                    <g transform="translate(6, 16)" fill="#010a1c" opacity="0.9">
+                    <g transform="translate(6, 16)" fill="var(--hm-3d-base2)" opacity="0.9">
                       {indiaDistrictSvgData.districts.map((dist, idx) => (
                         <path key={`3d-base-w1-${idx}`} d={dist.path} />
                       ))}
                     </g>
-                    <g transform="translate(4, 11)" fill="#021433" opacity="0.85">
+                    <g transform="translate(4, 11)" fill="var(--hm-3d-base3)" opacity="0.85">
                       {indiaDistrictSvgData.districts.map((dist, idx) => (
                         <path key={`3d-base-w2-${idx}`} d={dist.path} />
                       ))}
                     </g>
-                    <g transform="translate(2, 6)" fill="#052554" opacity="0.8">
+                    <g transform="translate(2, 6)" fill="var(--hm-3d-base4)" opacity="0.8">
                       {indiaDistrictSvgData.districts.map((dist, idx) => (
                         <path key={`3d-base-w3-${idx}`} d={dist.path} />
                       ))}
@@ -640,9 +640,10 @@ export default function InnovationHeatmap() {
                     const isDistrictSelected = (selectedDistrictId && (selectedDistrictId === activeDistInfo?.id));
                     const isPopupActive = isDistrictHovered || isDistrictSelected;
 
-                    const strokeColor = isPopupActive ? '#000000' : '#e5e7eb';
+                    const strokeColor = isPopupActive ? (document.documentElement.classList.contains('light') ? '#0f172a' : '#000000') : '#e5e7eb';
                     const strokeWidth = isPopupActive ? 1.5 : 0.5;
-                    const fillColor = isPopupActive && hasProblems ? '#dc2626' : hasProblems ? '#ef4444' : '#ffffff';
+                    const defaultEmptyColor = getComputedStyle(document.documentElement).getPropertyValue('--hm-district-empty').trim() || '#ffffff';
+                    const fillColor = isPopupActive && hasProblems ? '#dc2626' : hasProblems ? '#ef4444' : defaultEmptyColor;
 
                     return (
                       <path
@@ -755,13 +756,13 @@ export default function InnovationHeatmap() {
                     >
                       <foreignObject width="265" height="205">
                         <div style={{
-                          background: 'rgba(8, 20, 38, 0.95)',
+                          background: 'var(--hm-glass-bg)',
                           border: `1px solid ${hoveredDist.heatColor}`,
                           borderRadius: 'var(--radius-lg)',
                           padding: '14px 16px',
                           boxShadow: `0 16px 40px rgba(0,0,0,0.85), 0 0 24px ${hoveredDist.heatColor}40`,
                           backdropFilter: 'blur(12px)',
-                          color: '#ffffff',
+                          color: 'var(--hm-text-main)',
                           fontFamily: 'var(--font-primary)'
                         }}>
                           {/* Popup Header */}
@@ -770,7 +771,7 @@ export default function InnovationHeatmap() {
                               <div style={{ fontSize: 10, color: hoveredDist.heatColor, fontWeight: 700, letterSpacing: '0.04em' }}>
                                 {hoveredDist.state} • {hoveredDist.region}
                               </div>
-                              <div style={{ fontSize: 16, fontWeight: 800, color: '#ffffff', marginTop: 2 }}>
+                              <div style={{ fontSize: 16, fontWeight: 800, color: 'var(--hm-text-main)', marginTop: 2 }}>
                                 {hoveredDist.district}
                               </div>
                             </div>
@@ -824,8 +825,8 @@ export default function InnovationHeatmap() {
             }}>
               {/* Heat Legend */}
               <div style={{
-                background: '#0a1a30',
-                border: '1px solid rgba(255,255,255,0.1)',
+                background: 'var(--hm-panel-inner)',
+                border: '1px solid var(--hm-border)',
                 borderRadius: 'var(--radius-lg)', padding: '10px 16px',
                 display: 'flex', flexDirection: 'column', gap: 6
               }}>
@@ -844,14 +845,14 @@ export default function InnovationHeatmap() {
               <button
                 onClick={() => navigate('/login')}
                 style={{
-                  background: '#0a1a30',
-                  border: '1px solid rgba(255,255,255,0.12)',
+                  background: 'var(--hm-panel-inner)',
+                  border: '1px solid var(--hm-border)',
                   borderRadius: 'var(--radius-lg)', padding: '10px 18px',
                   display: 'flex', alignItems: 'center', gap: 12, cursor: 'pointer',
-                  color: '#ffffff', transition: 'all 0.2s ease'
+                  color: 'var(--hm-text-main)', transition: 'all 0.2s ease'
                 }}
                 onMouseEnter={e => e.currentTarget.style.borderColor = '#38bdf8'}
-                onMouseLeave={e => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.12)'}
+                onMouseLeave={e => e.currentTarget.style.borderColor = 'var(--hm-border)'}
               >
                 <div style={{
                   width: 28, height: 28, borderRadius: '50%', background: 'rgba(56,189,248,0.15)',
@@ -861,7 +862,7 @@ export default function InnovationHeatmap() {
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                   <span style={{ fontSize: 10, color: '#64748b', textTransform: 'uppercase', letterSpacing: '0.04em' }}>Total Problems (India)</span>
-                  <span style={{ fontFamily: 'var(--font-display)', fontSize: 16, fontWeight: 800, color: '#ffffff' }}>12,482</span>
+                  <span style={{ fontFamily: 'var(--font-display)', fontSize: 16, fontWeight: 800, color: 'var(--hm-text-main)' }}>12,482</span>
                 </div>
                 <ArrowRight size={14} style={{ color: '#64748b' }} />
               </button>
@@ -875,8 +876,8 @@ export default function InnovationHeatmap() {
             
             {/* Active District Card Header */}
             <div style={{
-              background: '#0d1f38',
-              border: '1px solid rgba(255, 255, 255, 0.1)',
+              background: 'var(--hm-panel)',
+              border: '1px solid var(--hm-border)',
               borderRadius: 'var(--radius-xl)',
               padding: '20px',
               boxShadow: '0 8px 24px rgba(0,0,0,0.4)',
@@ -909,7 +910,7 @@ export default function InnovationHeatmap() {
               {/* District Name */}
               <h3 style={{
                 fontFamily: 'var(--font-display)', fontSize: 26, fontWeight: 800,
-                color: '#ffffff', margin: '0 0 18px', display: 'flex', alignItems: 'center', gap: 10
+                color: 'var(--hm-text-main)', margin: '0 0 18px', display: 'flex', alignItems: 'center', gap: 10
               }}>
                 {activeDistrict.district}
               </h3>
@@ -963,8 +964,8 @@ export default function InnovationHeatmap() {
 
             {/* Problems by Category (Donut Chart & Legend) */}
             <div style={{
-              background: '#0d1f38',
-              border: '1px solid rgba(255, 255, 255, 0.1)',
+              background: 'var(--hm-panel)',
+              border: '1px solid var(--hm-border)',
               borderRadius: 'var(--radius-xl)',
               padding: '20px'
             }}>
@@ -992,7 +993,7 @@ export default function InnovationHeatmap() {
                       </Pie>
                       <RechartsTooltip
                         formatter={(val, name) => [`${val} problems`, name]}
-                        contentStyle={{ background: '#0a1628', borderRadius: 8, border: '1px solid #1e293b', color: '#fff', fontSize: 12 }}
+                        contentStyle={{ background: 'var(--hm-glass-bg)', borderRadius: 8, border: '1px solid var(--hm-border)', color: 'var(--hm-text-main)', fontSize: 12 }}
                       />
                     </PieChart>
                   </ResponsiveContainer>
@@ -1001,7 +1002,7 @@ export default function InnovationHeatmap() {
                     position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column',
                     alignItems: 'center', justifyContent: 'center', pointerEvents: 'none'
                   }}>
-                    <span style={{ fontSize: 16, fontWeight: 800, color: '#ffffff', lineHeight: 1 }}>
+                    <span style={{ fontSize: 16, fontWeight: 800, color: 'var(--hm-text-main)', lineHeight: 1 }}>
                       {activeDistrict.totalProblems}
                     </span>
                     <span style={{ fontSize: 9, color: '#64748b', textTransform: 'uppercase', marginTop: 2 }}>TOTAL</span>
@@ -1017,7 +1018,7 @@ export default function InnovationHeatmap() {
                         <span style={{ color: '#94a3b8' }}>{cat.name}</span>
                       </div>
                       <div style={{ display: 'flex', gap: 12 }}>
-                        <span style={{ color: '#ffffff', fontWeight: 700 }}>{cat.count}</span>
+                        <span style={{ color: 'var(--hm-text-main)', fontWeight: 700 }}>{cat.count}</span>
                         <span style={{ color: '#64748b', width: 32, textAlign: 'right' }}>{cat.percent}%</span>
                       </div>
                     </div>
@@ -1029,8 +1030,8 @@ export default function InnovationHeatmap() {
 
             {/* Top Government Challenges */}
             <div style={{
-              background: '#0d1f38',
-              border: '1px solid rgba(255, 255, 255, 0.1)',
+              background: 'var(--hm-panel)',
+              border: '1px solid var(--hm-border)',
               borderRadius: 'var(--radius-xl)',
               padding: '20px',
               flex: 1,
@@ -1038,7 +1039,7 @@ export default function InnovationHeatmap() {
               flexDirection: 'column'
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>
-                <h4 style={{ fontSize: 14, fontWeight: 700, color: '#ffffff', margin: 0 }}>
+                <h4 style={{ fontSize: 14, fontWeight: 700, color: 'var(--hm-text-main)', margin: 0 }}>
                   Top Government Challenges
                 </h4>
                 <button
@@ -1057,8 +1058,8 @@ export default function InnovationHeatmap() {
                     <div
                       key={c.id}
                       style={{
-                        background: '#0a1628',
-                        border: '1px solid rgba(255, 255, 255, 0.05)',
+                        background: 'var(--hm-panel-inner)',
+                        border: '1px solid var(--hm-border)',
                         borderRadius: 'var(--radius-lg)',
                         padding: '12px 14px',
                         display: 'flex',
@@ -1076,7 +1077,7 @@ export default function InnovationHeatmap() {
                           <Icon size={18} style={{ color: c.iconColor }} />
                         </div>
                         <div>
-                          <div style={{ fontSize: 13, fontWeight: 700, color: '#ffffff', lineHeight: 1.3 }}>
+                          <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--hm-text-main)', lineHeight: 1.3 }}>
                             {c.title}
                           </div>
                           <div style={{ display: 'flex', gap: 8, marginTop: 4, alignItems: 'center' }}>
@@ -1094,10 +1095,10 @@ export default function InnovationHeatmap() {
                       <button
                         onClick={() => navigate('/login?role=startup')}
                         style={{
-                          background: 'rgba(255, 255, 255, 0.05)',
-                          border: '1px solid rgba(255, 255, 255, 0.15)',
+                          background: 'var(--hm-btn-bg)',
+                          border: '1px solid var(--hm-btn-border)',
                           borderRadius: 'var(--radius-full)',
-                          color: '#e2e8f0',
+                          color: 'var(--hm-text-main)',
                           padding: '6px 14px',
                           fontSize: 11,
                           fontWeight: 700,
@@ -1113,9 +1114,9 @@ export default function InnovationHeatmap() {
                           e.currentTarget.style.borderColor = '#0d9488';
                         }}
                         onMouseLeave={e => {
-                          e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)';
-                          e.currentTarget.style.color = '#e2e8f0';
-                          e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.15)';
+                          e.currentTarget.style.background = 'var(--hm-btn-bg)';
+                          e.currentTarget.style.color = 'var(--hm-text-main)';
+                          e.currentTarget.style.borderColor = 'var(--hm-btn-border)';
                         }}
                       >
                         💡 Propose Solution
