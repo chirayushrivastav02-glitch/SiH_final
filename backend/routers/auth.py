@@ -47,11 +47,23 @@ MOCK_USERS = {
   },
 }
 
+DEMO_PASSWORDS = {
+    "government": "govt@demo",
+    "startup": "startup@demo",
+    "admin": "admin@demo"
+}
+
 @router.post("/login", response_model=LoginResponse)
 async def login(request: LoginRequest):
     user_data = MOCK_USERS.get(request.role)
     if not user_data:
         raise HTTPException(status_code=400, detail="Invalid role")
+        
+    if request.email != user_data.get("email"):
+        raise HTTPException(status_code=401, detail="Invalid email")
+        
+    if request.password != DEMO_PASSWORDS.get(request.role):
+        raise HTTPException(status_code=401, detail="Invalid password")
         
     import time
     return LoginResponse(

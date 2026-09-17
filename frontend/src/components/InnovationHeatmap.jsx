@@ -316,15 +316,36 @@ const topCityMostProblems = districtData.reduce((prev, curr) => (prev.totalProbl
 
 export default function InnovationHeatmap() {
   const navigate = useNavigate();
-  // Selected district starts at the city with the MOST problems (Mumbai Suburban - 142 problems)
-  const [selectedDistrictId, setSelectedDistrictId] = useState(topCityMostProblems.id);
-  const [hoveredDistrictId, setHoveredDistrictId] = useState(null);
+  // Selected state starts at the state with the MOST problems
+  const [selectedState, setSelectedState] = useState(topCityMostProblems.state);
+  const [hoveredState, setHoveredState] = useState(null);
 
   const [viewBy, setViewBy] = useState('Problem Demand');
   const [categoryFilter, setCategoryFilter] = useState('All Categories');
   const [timePeriod, setTimePeriod] = useState('Last 2 Years');
   const [zoomLevel, setZoomLevel] = useState(1);
   const [is3DView, setIs3DView] = useState(true);
+
+  const normalizeStateName = (name) => {
+    if (!name) return '';
+    return name.replace('&', 'and').toLowerCase().trim();
+  };
+
+  // Aggregate problems per state
+  const stateTotals = useMemo(() => {
+    const totals = {};
+    districtData.forEach(d => {
+      const norm = normalizeStateName(d.state);
+      totals[norm] = (totals[norm] || 0) + d.totalProblems;
+    });
+    return totals;
+  }, []);
+
+  const maxStateProblems = useMemo(() => {
+    let max = 0;
+    Object.values(stateTotals).forEach(v => { if (v > max) max = v; });
+    return max;
+  }, [stateTotals]);
 
   // Pre-calculate grouped state boundary SVG paths for bright state-border outline hierarchy
   const stateBoundaries = useMemo(() => {
@@ -339,9 +360,48 @@ export default function InnovationHeatmap() {
     }));
   }, []);
 
+  // Pre-calculate districtData lookups for O(1) matching during render
+  const districtMap = useMemo(() => {
+    const map = new Map();
+    indiaDistrictSvgData.districts.forEach(dist => {
+      const activeDistInfo = districtData.find(d => d.districtKey === dist.id || dist.id.includes(d.district.toLowerCase().replace(' ', '-')));
+      map.set(dist.id, activeDistInfo);
+    });
+    return map;
+  }, []);
+
+  // Pre-render the 3D base layers which don't depend on hover states
+  const threeDBaseLayers = useMemo(() => {
+    if (!is3DView) return null;
+    return (
+      <g pointerEvents="none">
+        <g transform="translate(8, 22)" fill="var(--hm-3d-base1)" opacity="0.95">
+          {stateBoundaries.map((sb, idx) => (
+            <path key={`3d-base-shadow-${idx}`} d={sb.combinedPath} />
+          ))}
+        </g>
+        <g transform="translate(6, 16)" fill="var(--hm-3d-base2)" opacity="0.9">
+          {stateBoundaries.map((sb, idx) => (
+            <path key={`3d-base-w1-${idx}`} d={sb.combinedPath} />
+          ))}
+        </g>
+        <g transform="translate(4, 11)" fill="var(--hm-3d-base3)" opacity="0.85">
+          {stateBoundaries.map((sb, idx) => (
+            <path key={`3d-base-w2-${idx}`} d={sb.combinedPath} />
+          ))}
+        </g>
+        <g transform="translate(2, 6)" fill="var(--hm-3d-base4)" opacity="0.8">
+          {stateBoundaries.map((sb, idx) => (
+            <path key={`3d-base-w3-${idx}`} d={sb.combinedPath} />
+          ))}
+        </g>
+      </g>
+    );
+  }, [is3DView, stateBoundaries]);
+
 
   // Active district for details panel:
-  const activeDistrict = districtData.find(d => d.id === (hoveredDistrictId || selectedDistrictId)) || topCityMostProblems;
+  const activeDistrict = districtData.find(d => d.state === (hoveredState || selectedState)) || topCityMostProblems;
   const maxProblems = topCityMostProblems.totalProblems; // 142
 
   return (
@@ -601,30 +661,7 @@ export default function InnovationHeatmap() {
                 <text x="240" y="670" fill="var(--hm-text-muted)" fontSize="12" fontWeight="700" letterSpacing="0.1em">INDIAN OCEAN</text>
 
                 {/* 3D ISOMETRIC EXTENSION: Physical 20px cliff slab only rendered in 3D mode */}
-                {is3DView && (
-                  <g pointerEvents="none">
-                    <g transform="translate(8, 22)" fill="var(--hm-3d-base1)" opacity="0.95">
-                      {indiaDistrictSvgData.districts.map((dist, idx) => (
-                        <path key={`3d-base-shadow-${idx}`} d={dist.path} />
-                      ))}
-                    </g>
-                    <g transform="translate(6, 16)" fill="var(--hm-3d-base2)" opacity="0.9">
-                      {indiaDistrictSvgData.districts.map((dist, idx) => (
-                        <path key={`3d-base-w1-${idx}`} d={dist.path} />
-                      ))}
-                    </g>
-                    <g transform="translate(4, 11)" fill="var(--hm-3d-base3)" opacity="0.85">
-                      {indiaDistrictSvgData.districts.map((dist, idx) => (
-                        <path key={`3d-base-w2-${idx}`} d={dist.path} />
-                      ))}
-                    </g>
-                    <g transform="translate(2, 6)" fill="var(--hm-3d-base4)" opacity="0.8">
-                      {indiaDistrictSvgData.districts.map((dist, idx) => (
-                        <path key={`3d-base-w3-${idx}`} d={dist.path} />
-                      ))}
-                    </g>
-                  </g>
-                )}
+                {threeDBaseLayers}
 
                 {/* MAIN MAP TERRAIN: ALL 594 REAL ADMINISTRATIVE DISTRICT POLYGONS OF INDIA!
                     - Visible White District Boundary Lines (`stroke="rgba(255,255,255,0.4)"`, `strokeWidth="0.8"`)
@@ -632,50 +669,60 @@ export default function InnovationHeatmap() {
                     - Districts with NO active government problems rendered in neutral slate `#071526`
                 */}
                 <g filter="url(#official3DShadow)">
-                  {indiaDistrictSvgData.districts.map((dist, idx) => {
-                    const activeDistInfo = districtData.find(d => d.districtKey === dist.id || dist.id.includes(d.district.toLowerCase().replace(' ', '-')));
-                    const hasProblems = !!activeDistInfo;
+                  {stateBoundaries.map((sb, idx) => {
+                    const total = stateTotals[normalizeStateName(sb.state)] || 0;
+                    const hasProblems = total > 0;
 
-                    const isDistrictHovered = (hoveredDistrictId && (hoveredDistrictId === activeDistInfo?.id));
-                    const isDistrictSelected = (selectedDistrictId && (selectedDistrictId === activeDistInfo?.id));
-                    const isPopupActive = isDistrictHovered || isDistrictSelected;
+                    const isStateHovered = hoveredState === sb.state;
+                    const isStateSelected = selectedState === sb.state;
+                    const isPopupActive = isStateHovered || isStateSelected;
 
-                    const strokeColor = isPopupActive ? (document.documentElement.classList.contains('light') ? '#0f172a' : '#000000') : '#e5e7eb';
-                    const strokeWidth = isPopupActive ? 1.5 : 0.5;
-                    const defaultEmptyColor = getComputedStyle(document.documentElement).getPropertyValue('--hm-district-empty').trim() || '#ffffff';
-                    const fillColor = isPopupActive && hasProblems ? '#dc2626' : hasProblems ? '#ef4444' : defaultEmptyColor;
+                    const defaultEmptyColor = getComputedStyle(document.documentElement).getPropertyValue('--hm-district-empty').trim() || '#e2e8f0';
+                    let fillColor = defaultEmptyColor;
+                    
+                    if (hasProblems) {
+                      const ratio = total / (maxStateProblems || 1);
+                      if (ratio < 0.25) fillColor = '#06b6d4'; // Cyan for low
+                      else if (ratio < 0.5) fillColor = '#10b981'; // Green for med-low
+                      else if (ratio < 0.75) fillColor = '#f59e0b'; // Yellow/Orange for med-high
+                      else fillColor = '#ef4444'; // Red for high
+                      
+                      // Darken slightly if hovered/selected for feedback
+                      if (isPopupActive) {
+                        if (fillColor === '#06b6d4') fillColor = '#0891b2';
+                        else if (fillColor === '#10b981') fillColor = '#059669';
+                        else if (fillColor === '#f59e0b') fillColor = '#d97706';
+                        else if (fillColor === '#ef4444') fillColor = '#dc2626';
+                      }
+                    }
 
                     return (
                       <path
-                        key={`district-${idx}`}
-                        d={dist.path}
+                        key={`state-${idx}`}
+                        d={sb.combinedPath}
                         fill={fillColor}
-                        stroke={strokeColor}
-                        strokeWidth={strokeWidth}
+                        stroke="none"
+                        strokeWidth="0"
                         strokeLinejoin="round"
                         style={{ transition: 'all 0.2s ease', cursor: hasProblems ? 'pointer' : 'default' }}
-                        onMouseEnter={() => {
-                          if (activeDistInfo) setHoveredDistrictId(activeDistInfo.id);
-                        }}
-                        onMouseLeave={() => setHoveredDistrictId(null)}
-                        onClick={() => {
-                          if (activeDistInfo) setSelectedDistrictId(activeDistInfo.id);
-                        }}
+                        onMouseEnter={() => setHoveredState(sb.state)}
+                        onMouseLeave={() => setHoveredState(null)}
+                        onClick={() => setSelectedState(sb.state)}
                       >
-                        <title>{dist.district}, {dist.state}{!hasProblems ? ' (No active government problems)' : ''}</title>
+                        <title>{sb.state}</title>
                       </path>
                     );
                   })}
                 </g>
 
-                {/* STATE BORDER OVERLAY LAYER: Crisp Bright White State Outlines (#ffffff, 1.6px) */}
+                {/* STATE BORDER OVERLAY LAYER */}
                 <g pointerEvents="none">
                   {stateBoundaries.map((sb, idx) => (
                     <path
                       key={`state-border-${idx}`}
                       d={sb.combinedPath}
                       fill="none"
-                      stroke="#9ca3af"
+                      stroke="var(--hm-border)"
                       strokeWidth="1.2"
                       strokeOpacity="0.8"
                       strokeLinejoin="round"
@@ -688,8 +735,8 @@ export default function InnovationHeatmap() {
 
                 {/* EXACT DISTRICT-LEVEL HOTSPOT PINS & NODES */}
                 {districtData.map(d => {
-                  const isHovered = hoveredDistrictId === d.id;
-                  const isSelected = selectedDistrictId === d.id;
+                  const isHovered = hoveredState === d.state;
+                  const isSelected = selectedState === d.state;
                   const pinColor = d.heatColor;
 
                   // Is this pin active (popped up)? Only when hovered or selected!
@@ -699,9 +746,9 @@ export default function InnovationHeatmap() {
                     <g
                       key={`pin-${d.id}`}
                       transform={`translate(${d.mapCoords.x}, ${d.mapCoords.y})`}
-                      onMouseEnter={() => setHoveredDistrictId(d.id)}
-                      onMouseLeave={() => setHoveredDistrictId(null)}
-                      onClick={() => setSelectedDistrictId(d.id)}
+                      onMouseEnter={() => setHoveredState(d.state)}
+                      onMouseLeave={() => setHoveredState(null)}
+                      onClick={() => setSelectedState(d.state)}
                       style={{ cursor: 'pointer' }}
                     >
                       {/* District Dot on Map */}
@@ -744,10 +791,17 @@ export default function InnovationHeatmap() {
                 })}
 
                 {/* HOVER GLASS POPUP CARD OVER DISTRICT MAP — ONLY SHOWN WHEN HOVERED OR SELECTED! */}
-                {(hoveredDistrictId || selectedDistrictId) && (() => {
-                  const activePopupId = hoveredDistrictId || selectedDistrictId;
-                  const hoveredDist = districtData.find(d => d.id === activePopupId);
-                  if (!hoveredDist) return null;
+                {(hoveredState || selectedState) && (() => {
+                  const activePopupState = hoveredState || selectedState;
+                  const stateDistricts = districtData.filter(d => normalizeStateName(d.state) === normalizeStateName(activePopupState));
+                  if (stateDistricts.length === 0) return null;
+                  
+                  const hoveredDist = {
+                    ...stateDistricts[0],
+                    totalProblems: stateDistricts.reduce((sum, d) => sum + d.totalProblems, 0),
+                    problemsDetail: stateDistricts.flatMap(d => d.problemsDetail),
+                    district: stateDistricts.map(d => d.district).join(', ')
+                  };
 
                   return (
                     <g
@@ -891,7 +945,7 @@ export default function InnovationHeatmap() {
                     borderRadius: 'var(--radius-md)', padding: '4px 10px',
                     fontSize: 11, fontWeight: 700, color: '#e2e8f0'
                   }}>
-                    {hoveredDistrictId === activeDistrict.id ? 'Hovering' : activeDistrict.state}
+                    {hoveredState === activeDistrict.state ? 'Hovering' : activeDistrict.state}
                   </div>
                   <div style={{ fontSize: 13, color: '#94a3b8' }}>
                     {activeDistrict.state} — {activeDistrict.region}

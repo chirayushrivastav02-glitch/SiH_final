@@ -169,6 +169,23 @@ export const pilotsAPI = {
   },
 };
 
+// ========== PILOT EVALUATION API ==========
+export const pilotEvaluationAPI = {
+  generateQuestions: async (data) => {
+    return await fetchAPI('/generate-questions', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  },
+  
+  evaluateAnswers: async (data) => {
+    return await fetchAPI('/evaluate-answers', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  },
+};
+
 // ========== CONTRACTS API ==========
 export const contractsAPI = {
   getAll: async () => {
