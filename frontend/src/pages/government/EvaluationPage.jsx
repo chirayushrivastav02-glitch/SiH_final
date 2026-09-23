@@ -43,10 +43,10 @@ export default function EvaluationPage() {
   const [comments, setComments] = useState({});
   const [statuses, setStatuses] = useState({});
 
-  const applications = mockApplications.map(app => ({
+  const applications = (mockApplications || []).filter(Boolean).map(app => ({
     ...app,
-    challenge: mockChallenges.find(c => c.id === app.challengeId),
-    startup: mockStartups.find(s => s.id === app.startupId),
+    challenge: (mockChallenges || []).find(c => c?.id === app.challengeId),
+    startup: (mockStartups || []).find(s => s?.id === app.startupId),
   }));
 
   const getStatus = (app) => statuses[app.id] || app.status;
@@ -121,7 +121,7 @@ export default function EvaluationPage() {
                 )}
 
                 {/* Status */}
-                <span className={`badge badge-${status.toLowerCase().replace(' ', '')}`}>{status}</span>
+                <span className={`badge badge-${(status || 'Pending').toLowerCase().replace(' ', '')}`}>{status || 'Pending'}</span>
 
                 {/* Actions */}
                 <div style={{ display: 'flex', gap: 6 }} onClick={e => e.stopPropagation()}>

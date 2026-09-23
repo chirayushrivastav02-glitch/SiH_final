@@ -62,7 +62,7 @@ const districtData = [
     qualifiedStartups: 34,
     unmatchedChallenges: 28,
     mapCoords: { x: 215.6, y: 516.3 },
-    heatColor: '#f97316', // High Demand Orange Heat
+    heatColor: '#EF4444', // 127 problems -> Very High
     categories: [
       { name: 'Healthcare', count: 42, percent: 33, color: '#ec4899' },
       { name: 'Infrastructure', count: 28, percent: 22, color: '#3b82f6' },
@@ -127,7 +127,7 @@ const districtData = [
     qualifiedStartups: 22,
     unmatchedChallenges: 35,
     mapCoords: { x: 272.7, y: 249.2 },
-    heatColor: '#f97316',
+    heatColor: '#F59E0B', // 110 problems -> High
     categories: [
       { name: 'Healthcare', count: 40, percent: 36, color: '#ec4899' },
       { name: 'Education', count: 35, percent: 32, color: '#eab308' },
@@ -211,7 +211,7 @@ const districtData = [
     qualifiedStartups: 20,
     unmatchedChallenges: 25,
     mapCoords: { x: 194.2, y: 90.0 },
-    heatColor: '#10b981',
+    heatColor: '#F59E0B',
     categories: [
       { name: 'Infrastructure', count: 35, percent: 38, color: '#3b82f6' },
       { name: 'Tourism & Env', count: 25, percent: 27, color: '#10b981' },
@@ -239,7 +239,7 @@ const districtData = [
     qualifiedStartups: 29,
     unmatchedChallenges: 14,
     mapCoords: { x: 123.3, y: 327.5 },
-    heatColor: '#10b981',
+    heatColor: '#F59E0B',
     categories: [
       { name: 'Transport', count: 32, percent: 36, color: '#06b6d4' },
       { name: 'Infrastructure', count: 28, percent: 32, color: '#3b82f6' },
@@ -267,7 +267,7 @@ const districtData = [
     qualifiedStartups: 18,
     unmatchedChallenges: 24,
     mapCoords: { x: 457.8, y: 262.0 },
-    heatColor: '#06b6d4',
+    heatColor: '#F59E0B',
     categories: [
       { name: 'Environment', count: 35, percent: 40, color: '#10b981' },
       { name: 'Infrastructure', count: 28, percent: 32, color: '#3b82f6' },
@@ -294,7 +294,7 @@ const districtData = [
     qualifiedStartups: 26,
     unmatchedChallenges: 15,
     mapCoords: { x: 261.5, y: 514.3 },
-    heatColor: '#06b6d4',
+    heatColor: '#F5D547',
     categories: [
       { name: 'Infrastructure', count: 30, percent: 36, color: '#3b82f6' },
       { name: 'Healthcare', count: 24, percent: 28, color: '#ec4899' },
@@ -448,7 +448,7 @@ export default function InnovationHeatmap() {
               }}>Intelligence Map</span>
             </h2>
             <p style={{
-              color: '#94a3b8', fontSize: 14, marginTop: 8, maxWidth: 640, lineHeight: 1.5
+              color: 'var(--hm-text-muted)', fontSize: 14, marginTop: 8, maxWidth: 640, lineHeight: 1.5
             }}>
               Discover where government problems are most needed, where startups can make an impact, and where innovation gaps exist — across India.
             </p>
@@ -669,6 +669,19 @@ export default function InnovationHeatmap() {
                     - Districts with NO active government problems rendered in neutral slate `#071526`
                 */}
                 <g filter="url(#official3DShadow)">
+                  {/* LAYER 1: Background stroke path to create outer state borders */}
+                  {stateBoundaries.map((sb, idx) => (
+                    <path
+                      key={`state-group-stroke-${idx}`}
+                      d={sb.combinedPath}
+                      fill="none"
+                      stroke="#000000"
+                      strokeWidth="1.5"
+                      strokeLinejoin="round"
+                    />
+                  ))}
+                  
+                  {/* LAYER 2: Foreground fill path that covers internal shared district boundaries */}
                   {stateBoundaries.map((sb, idx) => {
                     const total = stateTotals[normalizeStateName(sb.state)] || 0;
                     const hasProblems = total > 0;
@@ -680,31 +693,31 @@ export default function InnovationHeatmap() {
                     const defaultEmptyColor = getComputedStyle(document.documentElement).getPropertyValue('--hm-district-empty').trim() || '#e2e8f0';
                     let fillColor = defaultEmptyColor;
                     
-                    if (hasProblems) {
-                      const ratio = total / (maxStateProblems || 1);
-                      if (ratio < 0.25) fillColor = '#06b6d4'; // Cyan for low
-                      else if (ratio < 0.5) fillColor = '#10b981'; // Green for med-low
-                      else if (ratio < 0.75) fillColor = '#f59e0b'; // Yellow/Orange for med-high
-                      else fillColor = '#ef4444'; // Red for high
-                      
-                      // Darken slightly if hovered/selected for feedback
-                      if (isPopupActive) {
-                        if (fillColor === '#06b6d4') fillColor = '#0891b2';
-                        else if (fillColor === '#10b981') fillColor = '#059669';
-                        else if (fillColor === '#f59e0b') fillColor = '#d97706';
-                        else if (fillColor === '#ef4444') fillColor = '#dc2626';
-                      }
+                    const ratio = total / (maxStateProblems || 1);
+                    if (ratio <= 0.2) fillColor = '#B8F34A';
+                    else if (ratio <= 0.4) fillColor = '#69C957';
+                    else if (ratio <= 0.6) fillColor = '#F5D547';
+                    else if (ratio <= 0.8) fillColor = '#F59E0B';
+                    else fillColor = '#EF4444';
+                    
+                    // Darken slightly if hovered/selected for feedback
+                    if (isPopupActive) {
+                      if (fillColor === '#B8F34A') fillColor = '#a3db3a';
+                      else if (fillColor === '#69C957') fillColor = '#5ab34a';
+                      else if (fillColor === '#F5D547') fillColor = '#e3c436';
+                      else if (fillColor === '#F59E0B') fillColor = '#d97706';
+                      else if (fillColor === '#EF4444') fillColor = '#dc2626';
                     }
 
                     return (
                       <path
-                        key={`state-${idx}`}
+                        key={`state-group-fill-${idx}`}
                         d={sb.combinedPath}
                         fill={fillColor}
                         stroke="none"
                         strokeWidth="0"
                         strokeLinejoin="round"
-                        style={{ transition: 'all 0.2s ease', cursor: hasProblems ? 'pointer' : 'default' }}
+                        style={{ transition: 'all 0.2s ease', cursor: 'pointer' }}
                         onMouseEnter={() => setHoveredState(sb.state)}
                         onMouseLeave={() => setHoveredState(null)}
                         onClick={() => setSelectedState(sb.state)}
@@ -715,21 +728,7 @@ export default function InnovationHeatmap() {
                   })}
                 </g>
 
-                {/* STATE BORDER OVERLAY LAYER */}
-                <g pointerEvents="none">
-                  {stateBoundaries.map((sb, idx) => (
-                    <path
-                      key={`state-border-${idx}`}
-                      d={sb.combinedPath}
-                      fill="none"
-                      stroke="var(--hm-border)"
-                      strokeWidth="1.2"
-                      strokeOpacity="0.8"
-                      strokeLinejoin="round"
-                      strokeLinecap="round"
-                    />
-                  ))}
-                </g>
+                {/* Removed state border overlay layer since borders are now rendered per-state */}
 
                 {/* Removed Dynamic Thermal Heatmap Circles per user request */}
 
@@ -889,7 +888,7 @@ export default function InnovationHeatmap() {
                   <span style={{ fontSize: 10, color: '#64748b', fontWeight: 600 }}>low</span>
                   <div style={{
                     width: 130, height: 8, borderRadius: 4,
-                    background: 'linear-gradient(90deg, #10b981 0%, #f59e0b 50%, #ef4444 100%)'
+                    background: 'linear-gradient(90deg, #B8F34A 0%, #69C957 25%, #F5D547 50%, #F59E0B 75%, #EF4444 100%)'
                   }} />
                   <span style={{ fontSize: 10, color: '#ef4444', fontWeight: 700 }}>high</span>
                 </div>
@@ -941,13 +940,13 @@ export default function InnovationHeatmap() {
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                   <div style={{
-                    background: 'rgba(255,255,255,0.08)',
+                    background: 'var(--hm-panel-inner)',
                     borderRadius: 'var(--radius-md)', padding: '4px 10px',
-                    fontSize: 11, fontWeight: 700, color: '#e2e8f0'
+                    fontSize: 11, fontWeight: 700, color: 'var(--hm-text-main)'
                   }}>
                     {hoveredState === activeDistrict.state ? 'Hovering' : activeDistrict.state}
                   </div>
-                  <div style={{ fontSize: 13, color: '#94a3b8' }}>
+                  <div style={{ fontSize: 13, color: 'var(--hm-text-muted)' }}>
                     {activeDistrict.state} — {activeDistrict.region}
                   </div>
                 </div>
@@ -973,41 +972,41 @@ export default function InnovationHeatmap() {
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 8 }}>
                 
                 {/* Stat 1: Total Problems */}
-                <div style={{ background: '#0a1628', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 'var(--radius-lg)', padding: '10px 8px' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 4, fontSize: 10, color: '#94a3b8' }}>
+                <div style={{ background: 'var(--hm-panel-inner)', border: '1px solid var(--hm-border)', borderRadius: 'var(--radius-lg)', padding: '10px 8px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 4, fontSize: 10, color: 'var(--hm-text-muted)' }}>
                     <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#ec4899' }} /> Problems
                   </div>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 800, color: '#ffffff', marginTop: 4 }}>
+                  <div style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 800, color: 'var(--hm-text-main)', marginTop: 4 }}>
                     {activeDistrict.totalProblems}
                   </div>
                 </div>
 
                 {/* Stat 2: Total Budget */}
-                <div style={{ background: '#0a1628', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 'var(--radius-lg)', padding: '10px 8px' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 4, fontSize: 10, color: '#94a3b8' }}>
+                <div style={{ background: 'var(--hm-panel-inner)', border: '1px solid var(--hm-border)', borderRadius: 'var(--radius-lg)', padding: '10px 8px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 4, fontSize: 10, color: 'var(--hm-text-muted)' }}>
                     <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#8b5cf6' }} /> Budget
                   </div>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: 16, fontWeight: 800, color: '#ffffff', marginTop: 4 }}>
+                  <div style={{ fontFamily: 'var(--font-display)', fontSize: 16, fontWeight: 800, color: 'var(--hm-text-main)', marginTop: 4 }}>
                     {activeDistrict.totalBudget}
                   </div>
                 </div>
 
                 {/* Stat 3: Qualified Startups */}
-                <div style={{ background: '#0a1628', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 'var(--radius-lg)', padding: '10px 8px' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 4, fontSize: 10, color: '#94a3b8' }}>
+                <div style={{ background: 'var(--hm-panel-inner)', border: '1px solid var(--hm-border)', borderRadius: 'var(--radius-lg)', padding: '10px 8px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 4, fontSize: 10, color: 'var(--hm-text-muted)' }}>
                     <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#10b981' }} /> Startups
                   </div>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 800, color: '#ffffff', marginTop: 4 }}>
+                  <div style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 800, color: 'var(--hm-text-main)', marginTop: 4 }}>
                     {activeDistrict.qualifiedStartups}
                   </div>
                 </div>
 
                 {/* Stat 4: Unmatched Challenges */}
-                <div style={{ background: '#0a1628', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 'var(--radius-lg)', padding: '10px 8px' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 4, fontSize: 10, color: '#94a3b8' }}>
+                <div style={{ background: 'var(--hm-panel-inner)', border: '1px solid var(--hm-border)', borderRadius: 'var(--radius-lg)', padding: '10px 8px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 4, fontSize: 10, color: 'var(--hm-text-muted)' }}>
                     <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#f59e0b' }} /> Unmatched
                   </div>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 800, color: '#ffffff', marginTop: 4 }}>
+                  <div style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 800, color: 'var(--hm-text-main)', marginTop: 4 }}>
                     {activeDistrict.unmatchedChallenges}
                   </div>
                 </div>
@@ -1023,7 +1022,7 @@ export default function InnovationHeatmap() {
               borderRadius: 'var(--radius-xl)',
               padding: '20px'
             }}>
-              <h4 style={{ fontSize: 14, fontWeight: 700, color: '#ffffff', margin: '0 0 16px' }}>
+              <h4 style={{ fontSize: 14, fontWeight: 700, color: 'var(--hm-text-main)', margin: '0 0 16px' }}>
                 Problems by Category
               </h4>
 
@@ -1069,11 +1068,11 @@ export default function InnovationHeatmap() {
                     <div key={cat.name} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: 12 }}>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                         <span style={{ width: 8, height: 8, borderRadius: '50%', background: cat.color }} />
-                        <span style={{ color: '#94a3b8' }}>{cat.name}</span>
+                        <span style={{ color: 'var(--hm-text-main)' }}>{cat.name}</span>
                       </div>
                       <div style={{ display: 'flex', gap: 12 }}>
                         <span style={{ color: 'var(--hm-text-main)', fontWeight: 700 }}>{cat.count}</span>
-                        <span style={{ color: '#64748b', width: 32, textAlign: 'right' }}>{cat.percent}%</span>
+                        <span style={{ color: 'var(--hm-text-muted)', width: 32, textAlign: 'right' }}>{cat.percent}%</span>
                       </div>
                     </div>
                   ))}
@@ -1138,7 +1137,7 @@ export default function InnovationHeatmap() {
                             <span style={{ fontSize: 10, color: '#60a5fa', background: 'rgba(96,165,250,0.12)', padding: '1px 6px', borderRadius: 4 }}>
                               {c.category}
                             </span>
-                            <span style={{ fontSize: 11, color: '#94a3b8', fontWeight: 600 }}>
+                            <span style={{ fontSize: 11, color: 'var(--hm-text-muted)', fontWeight: 600 }}>
                               {c.budget}
                             </span>
                           </div>
