@@ -72,7 +72,7 @@ export default defineConfig({
     // absolute backend URL. Target is the FastAPI dev server (supervisor: backend).
     proxy: {
       "/api": {
-        target: "http://localhost:8001",
+        target: "http://127.0.0.1:8000",
         changeOrigin: true,
       },
     },

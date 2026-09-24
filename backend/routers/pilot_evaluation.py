@@ -78,6 +78,7 @@ async def evaluate_answers(submission: StartupAnswerSubmission):
         return EvaluationResult(
             score=88,
             verdict="PASS",
+            reasoning="The startup has shown comprehensive technical depth and risk mitigation strategies in their answers, particularly concerning hardware resilience and data security. However, minor vulnerabilities remain in edge case scenarios.",
             critical_vulnerabilities=[
                 "Potential battery drain under continuous extreme heat",
                 "Single point of failure in the local data aggregation node"
