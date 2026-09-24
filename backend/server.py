@@ -15,22 +15,38 @@ ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / ".env")
 
 
-# MongoDB connection
+# =========================================================
+# MONGODB CONNECTION
+# =========================================================
+
 from lib.db import client, db
 
 
-# Startup / shutdown
+# =========================================================
+# STARTUP / SHUTDOWN
+# =========================================================
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    print("Starting IPPS Setu backend...")
+
     yield
+
+    print("Shutting down IPPS Setu backend...")
     client.close()
 
 
-# Create FastAPI app
+# =========================================================
+# CREATE FASTAPI APP
+# =========================================================
+
 app = FastAPI(lifespan=lifespan)
 
 
-# Create router with /api prefix
+# =========================================================
+# API ROUTER
+# =========================================================
+
 api_router = APIRouter(prefix="/api")
 
 
@@ -51,9 +67,13 @@ async def home():
 # =========================================================
 
 class StatusCheck(BaseModel):
-    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    id: str = Field(
+        default_factory=lambda: str(uuid.uuid4())
+    )
     client_name: str
-    timestamp: datetime = Field(default_factory=datetime.utcnow)
+    timestamp: datetime = Field(
+        default_factory=datetime.utcnow
+    )
 
 
 class StatusCheckCreate(BaseModel):
@@ -65,27 +85,64 @@ class StatusCheckCreate(BaseModel):
 # =========================================================
 
 @api_router.get("/health")
-async def root():
+async def health_check():
     return {
-        "message": "Hello World"
+        "message": "Hello World",
+        "status": "healthy"
     }
+
+
+# =========================================================
+# DATABASE HEALTH CHECK
+# =========================================================
+
+@api_router.get("/health/database")
+async def database_health():
+    try:
+        await db.command("ping")
+
+        return {
+            "status": "healthy",
+            "database": "connected"
+        }
+
+    except Exception as e:
+        return {
+            "status": "unhealthy",
+            "database": "disconnected",
+            "error": str(e)
+        }
 
 
 # =========================================================
 # STATUS CHECK
 # =========================================================
 
-@api_router.post("/status", response_model=StatusCheck)
-async def create_status_check(input: StatusCheckCreate):
-    status_dict = input.model_dump()
-    status_obj = StatusCheck(**status_dict)
+@api_router.post(
+    "/status",
+    response_model=StatusCheck
+)
+async def create_status_check(
+    input: StatusCheckCreate
+):
 
-    await db.status_checks.insert_one(status_obj.model_dump())
+    status_dict = input.model_dump()
+
+    status_obj = StatusCheck(
+        **status_dict
+    )
+
+    await db.status_checks.insert_one(
+        status_obj.model_dump()
+    )
 
     return status_obj
 
 
-@api_router.get("/status", response_model=List[StatusCheck])
+@api_router.get(
+    "/status",
+    response_model=List[StatusCheck]
+)
 async def get_status_checks():
 
     status_checks = await db.status_checks.find().to_list(1000)
@@ -97,11 +154,10 @@ async def get_status_checks():
 
 
 # =========================================================
-# IMPORT ROUTERS
+# IMPORT OTHER ROUTERS
 # =========================================================
 
 from routers import (
-    matching,
     auth,
     challenges,
     startups,
@@ -117,7 +173,6 @@ from routers import (
 # INCLUDE ROUTERS
 # =========================================================
 
-api_router.include_router(matching.router)
 api_router.include_router(auth.router)
 api_router.include_router(challenges.router)
 api_router.include_router(startups.router)
@@ -128,7 +183,27 @@ api_router.include_router(waivers.router)
 api_router.include_router(refunds.router)
 
 
-# Add /api routes to FastAPI
+# =========================================================
+# AI MATCHING DISABLED
+# =========================================================
+#
+# The matching router is intentionally NOT imported here.
+#
+# Reason:
+# The AI matching system loads heavy ML dependencies/models
+# and causes Render's 512 MB memory limit to be exceeded.
+#
+# It can be enabled later when more memory is available.
+#
+# =========================================================
+
+print("AI matching router disabled to reduce memory usage.")
+
+
+# =========================================================
+# ADD API ROUTES
+# =========================================================
+
 app.include_router(api_router)
 
 
@@ -158,3 +233,5 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
+
+logger.info("IPPS Setu backend initialized successfully.")
