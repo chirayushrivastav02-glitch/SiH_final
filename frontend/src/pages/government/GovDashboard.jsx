@@ -77,58 +77,118 @@ export default function GovDashboard() {
           backgroundSize: '40px 40px',
         }} />
 
-        <div style={{ position: 'relative', zIndex: 1 }}>
-          <span style={{
-            display: 'inline-block',
-            background: 'rgba(13,148,136,0.15)', border: '1px solid rgba(13,148,136,0.3)',
-            borderRadius: 'var(--radius-full)', padding: '4px 12px',
-            fontSize: 11, fontWeight: 600, color: 'var(--teal-400)',
-            letterSpacing: '0.06em', marginBottom: 16,
-          }}>
-            ● TWO-SIDED INNOVATION MARKETPLACE
-          </span>
+        <div className="gov-hero-content">
+          {/* Left Column: Marketplace tag, Heading, Paragraph, Buttons, Metrics */}
+          <div className="gov-hero-left">
+            <span style={{
+              display: 'inline-block',
+              background: 'rgba(13,148,136,0.15)', border: '1px solid rgba(13,148,136,0.3)',
+              borderRadius: 'var(--radius-full)', padding: '4px 12px',
+              fontSize: 11, fontWeight: 600, color: 'var(--teal-400)',
+              letterSpacing: '0.06em', marginBottom: 16,
+            }}>
+              ● TWO-SIDED INNOVATION MARKETPLACE
+            </span>
 
-          <h1 style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(24px, 3vw, 40px)',
-            fontWeight: 900, color: 'var(--text-primary)', lineHeight: 1.1, marginBottom: 12,
-          }}>
-            From problem statements<br />to scaled public impact.
-          </h1>
+            <h1 style={{
+              fontFamily: 'var(--font-display)',
+              fontSize: 'clamp(24px, 3vw, 40px)',
+              fontWeight: 900, color: 'var(--text-primary)', lineHeight: 1.1, marginBottom: 12,
+            }}>
+              From problem statements<br />to scaled public impact.
+            </h1>
 
-          <p style={{ fontSize: 14.5, color: 'var(--text-secondary)', maxWidth: 480, lineHeight: 1.6, marginBottom: 28 }}>
-            Government departments publish structured challenges. Startups get transparent scoring, pilot sandbox, and a clear path to procurement — with every decision auditable.
-          </p>
+            <p style={{ fontSize: 14.5, color: 'var(--text-secondary)', maxWidth: 480, lineHeight: 1.6, marginBottom: 28 }}>
+              Government departments publish structured challenges. Startups get transparent scoring, pilot sandbox, and a clear path to procurement — with every decision auditable.
+            </p>
 
-          <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginBottom: 32 }}>
-            <button className="btn btn-secondary btn-lg" onClick={() => navigate('/gov/challenges')}>
-              Browse Challenges <ArrowRight size={16} />
-            </button>
-            <button className="btn btn-primary btn-lg" onClick={() => navigate('/gov/challenges/create')}>
-              <Plus size={16} /> Create Challenge
-            </button>
-            <button
-              className="btn btn-lg"
-              style={{ background: 'linear-gradient(135deg, #0d9488, #06b6d4)', color: '#ffffff', boxShadow: '0 2px 16px rgba(13,148,136,0.35)' }}
-              onClick={() => navigate('/gov/matching')}
-            >
-              <Cpu size={16} /> Run Matching Engine
-            </button>
+            <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginBottom: 32 }}>
+              <button className="btn btn-secondary btn-lg" onClick={() => navigate('/gov/challenges')}>
+                Browse Challenges <ArrowRight size={16} />
+              </button>
+              <button className="btn btn-primary btn-lg" onClick={() => navigate('/gov/challenges/create')}>
+                <Plus size={16} /> Create Challenge
+              </button>
+              <button
+                className="btn btn-lg"
+                style={{ background: 'linear-gradient(135deg, #0d9488, #06b6d4)', color: '#ffffff', boxShadow: '0 2px 16px rgba(13,148,136,0.35)' }}
+                onClick={() => navigate('/gov/matching')}
+              >
+                <Cpu size={16} /> Run Matching Engine
+              </button>
+            </div>
+
+            {/* Live Metrics */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 20, maxWidth: 720 }}>
+              {[
+                { label: 'AVG. MATCH TIME', value: stats.avgMatchTime },
+                { label: 'PILOT SUCCESS RATE', value: stats.pilotSuccessRate },
+                { label: 'TIME TO CONTRACT', value: stats.timeToContract },
+                { label: 'BENEFICIARIES REACHED', value: stats.beneficiariesReached },
+              ].map(m => (
+                <div key={m.label} style={{ borderLeft: '2px solid var(--border-color)', paddingLeft: 16 }}>
+                  <div style={{ fontSize: 10, color: 'var(--text-muted)', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: 4 }}>{m.label}</div>
+                  <div style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 800, color: 'var(--text-primary)' }}>{m.value}</div>
+                </div>
+              ))}
+            </div>
           </div>
 
-          {/* Live Metrics */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 20, maxWidth: 720 }}>
-            {[
-              { label: 'AVG. MATCH TIME', value: stats.avgMatchTime },
-              { label: 'PILOT SUCCESS RATE', value: stats.pilotSuccessRate },
-              { label: 'TIME TO CONTRACT', value: stats.timeToContract },
-              { label: 'BENEFICIARIES REACHED', value: stats.beneficiariesReached },
-            ].map(m => (
-              <div key={m.label} style={{ borderLeft: '2px solid var(--border-color)', paddingLeft: 16 }}>
-                <div style={{ fontSize: 10, color: 'var(--text-muted)', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: 4 }}>{m.label}</div>
-                <div style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 800, color: 'var(--text-primary)' }}>{m.value}</div>
-              </div>
-            ))}
+          {/* Central decorative dot matrix */}
+          <div className="gov-central-dots" />
+
+          {/* Dedicated Right Half: Centers the Emblem in this half, positioned cleanly from the top */}
+          <div className="gov-hero-right-half">
+            {/* Top-right subtle dot matrix matching reference */}
+            <div className="gov-top-right-dots" />
+
+            {/* Ashoka Chakra background watermark */}
+            <svg className="gov-watermark-chakra" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="100" cy="100" r="92" stroke="currentColor" strokeWidth="4" />
+              <circle cx="100" cy="100" r="82" stroke="currentColor" strokeWidth="1.5" />
+              <circle cx="100" cy="100" r="18" fill="currentColor" opacity="0.3" />
+              <circle cx="100" cy="100" r="18" stroke="currentColor" strokeWidth="2" />
+              <circle cx="100" cy="100" r="8" fill="currentColor" />
+              {Array.from({ length: 24 }).map((_, i) => (
+                <line
+                  key={i}
+                  x1="100"
+                  y1="100"
+                  x2={+(100 + 82 * Math.cos((i * 15 * Math.PI) / 180)).toFixed(2)}
+                  y2={+(100 + 82 * Math.sin((i * 15 * Math.PI) / 180)).toFixed(2)}
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                />
+              ))}
+              {Array.from({ length: 24 }).map((_, i) => (
+                <circle
+                  key={`dot-${i}`}
+                  cx={+(100 + 87 * Math.cos(((i * 15 + 7.5) * Math.PI) / 180)).toFixed(2)}
+                  cy={+(100 + 87 * Math.sin(((i * 15 + 7.5) * Math.PI) / 180)).toFixed(2)}
+                  r="2"
+                  fill="currentColor"
+                />
+              ))}
+            </svg>
+
+            {/* Official State Emblem of India - Prominent Big Size from Top */}
+            <div className="gov-emblem-wrapper">
+              <div className="gov-emblem-ambient-glow" />
+              <div className="gov-emblem-beam" />
+              <img
+                src="/government-emblem.svg"
+                alt="State Emblem of India"
+                className="gov-emblem-img"
+                onError={(e) => {
+                  e.currentTarget.src = '/government-emblem.png';
+                }}
+              />
+            </div>
+            <div className="gov-emblem-title-hi">भारत सरकार</div>
+            <div className="gov-emblem-title-en">Government of India</div>
+            <div className="gov-emblem-tagline">
+              INNOVATION &bull; TRANSPARENCY &bull; IMPACT
+            </div>
           </div>
         </div>
       </div>
