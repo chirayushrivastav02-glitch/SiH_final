@@ -53,7 +53,7 @@ async def generate_questions(request: EvaluationRequest):
     try:
         from google.genai import types
         response = client.models.generate_content(
-            model='gemini-3.8-flash',
+            model='gemini-3.6-flash',
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -106,7 +106,7 @@ Output strictly in JSON matching the provided schema.
     try:
         from google.genai import types
         response = client.models.generate_content(
-            model='gemini-3.8-flash',
+            model='gemini-3.6-flash',
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
