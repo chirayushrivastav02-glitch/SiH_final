@@ -4,7 +4,7 @@ const Logo = ({ size = 38, showText = true, className = '' }) => (
     <img
       src="/logo.png"
       alt="IPPS Setu Logo"
-      style={{ width: size, height: size, borderRadius: '50%', objectFit: 'contain', background: 'white', padding: 2, flexShrink: 0 }}
+      style={{ height: size, width: 'auto', objectFit: 'contain', flexShrink: 0 }}
     />
     {showText && (
       <div className="sidebar-logo-text">

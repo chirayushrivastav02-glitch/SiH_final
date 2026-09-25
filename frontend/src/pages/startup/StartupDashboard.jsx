@@ -167,7 +167,7 @@ export default function StartupDashboard() {
           <p className="section-subtitle">Open for applications right now</p>
         </div>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 16 }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))', gap: 16 }}>
         {openChallenges.slice(0, 3).map(c => (
           <div
             key={c.id}

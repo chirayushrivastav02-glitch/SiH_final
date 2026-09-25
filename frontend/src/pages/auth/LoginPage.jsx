@@ -89,7 +89,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div style={{ textAlign: 'center', marginBottom: 36 }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: 12, cursor: 'pointer' }} onClick={() => navigate('/')}>
-            <img src="/logo.png" alt="IPPS Setu" style={{ width: 52, height: 52, borderRadius: '50%', background: 'white', padding: 4, objectFit: 'contain' }} />
+            <img src="/logo.png" alt="IPPS Setu" style={{ height: 60, width: 'auto', objectFit: 'contain' }} />
             <div style={{ textAlign: 'left' }}>
               <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 22, color: 'var(--text-primary)' }}>IPPS Setu</div>
               <div style={{ fontSize: 11, color: 'var(--text-muted)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>Innovation Procurement Platform</div>

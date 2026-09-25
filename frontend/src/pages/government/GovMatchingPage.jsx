@@ -146,10 +146,11 @@ export default function GovMatchingPage() {
         </div>
       </div>
 
-      <div style={{ padding: '32px', display: 'grid', gridTemplateColumns: 'minmax(600px, 1.5fr) 420px', gap: '24px' }}>
+      <div className="matching-layout" style={{ padding: '32px' }}>
         
         {/* LEFT COLUMN: TABLE */}
-        <div style={{ background: 'var(--bg-card)', borderRadius: '16px', border: '1px solid var(--border-color)', overflow: 'hidden', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)' }}>
+        <div style={{ background: 'var(--bg-card)', borderRadius: '16px', border: '1px solid var(--border-color)', overflowX: 'auto', overflowY: 'hidden', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)' }}>
+          <div style={{ minWidth: '768px' }}>
           
           {isLoading ? (
             <div style={{ padding: '48px', textAlign: 'center', color: 'var(--text-muted)' }}>Analyzing startup applications...</div>
@@ -231,6 +232,7 @@ export default function GovMatchingPage() {
               </div>
             </>
           )}
+          </div>
         </div>
 
         {/* RIGHT COLUMN: DETAILS PANEL */}

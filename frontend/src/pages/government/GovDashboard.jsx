@@ -119,7 +119,7 @@ export default function GovDashboard() {
             </div>
 
             {/* Live Metrics */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 20, maxWidth: 720 }}>
+            <div className="gov-metrics-grid" style={{ maxWidth: 720 }}>
               {[
                 { label: 'AVG. MATCH TIME', value: stats.avgMatchTime },
                 { label: 'PILOT SUCCESS RATE', value: stats.pilotSuccessRate },

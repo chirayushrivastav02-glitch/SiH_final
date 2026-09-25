@@ -65,7 +65,7 @@ export default function LandingPage() {
       {/* Navbar */}
       <nav className="landing-nav">
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, cursor: 'pointer' }} onClick={() => navigate('/')}>
-          <img src="/logo.png" alt="IPPS Setu" style={{ width: 42, height: 42, borderRadius: '50%', background: 'white', padding: 3, objectFit: 'contain' }} />
+          <img src="/logo.png" alt="IPPS Setu" style={{ height: 48, width: 'auto', objectFit: 'contain' }} />
           <div>
             <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 18, color: 'var(--text-primary)', lineHeight: 1.1 }}>IPPS Setu</div>
             <div style={{ fontSize: 10, color: 'var(--text-muted)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>Innovation Procurement Platform</div>
@@ -359,7 +359,7 @@ export default function LandingPage() {
       <footer style={{ background: 'var(--bg-secondary)', borderTop: '1px solid var(--border-color)', padding: '32px 64px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 24, flexWrap: 'wrap' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <img src="/logo.png" alt="IPPS Setu" style={{ width: 32, height: 32, borderRadius: '50%', background: 'white', padding: 2, objectFit: 'contain' }} />
+            <img src="/logo.png" alt="IPPS Setu" style={{ height: 42, width: 'auto', objectFit: 'contain' }} />
             <div>
               <div style={{ fontWeight: 700, color: 'var(--text-primary)', fontSize: 14 }}>IPPS Setu</div>
               <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>Innovation Procurement Platform</div>

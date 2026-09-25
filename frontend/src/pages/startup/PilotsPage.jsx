@@ -258,7 +258,7 @@ export default function PilotsPage() {
         <div style={{ display: 'grid', gap: 20 }}>
           <div className="card">
             <h3 style={{ fontSize: 16, fontWeight: 600, marginBottom: 16, borderBottom: '1px solid var(--border-color)', paddingBottom: 12 }}>Pilot Details</h3>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 24 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 24 }}>
               <div>
                 <div style={{ fontSize: 12, color: 'var(--text-muted)', marginBottom: 4 }}>Domain</div>
                 <div style={{ fontWeight: 500 }}>{selectedPilot.domain}</div>
@@ -445,7 +445,7 @@ export default function PilotsPage() {
               </div>
 
               {/* Details Columns */}
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 24 }}>
                 <div className="card">
                   <h3 style={{ fontSize: 16, fontWeight: 700, marginBottom: 16, display: 'flex', alignItems: 'center', gap: 8, color: '#ef4444' }}>
                     <AlertTriangle size={18} /> Critical Vulnerabilities

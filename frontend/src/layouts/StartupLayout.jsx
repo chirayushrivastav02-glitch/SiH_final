@@ -73,7 +73,10 @@ export default function StartupLayout({ children }) {
           <div
             key={path}
             className={`sidebar-item ${isActive(path) ? 'active' : ''}`}
-            onClick={() => navigate(path)}
+            onClick={() => {
+              navigate(path);
+              setSidebarOpen(false);
+            }}
           >
             <Icon className="sidebar-icon" size={18} />
             <span>{label}</span>
@@ -104,6 +107,15 @@ export default function StartupLayout({ children }) {
 
   return (
     <div className={`app-layout ${sidebarOpen ? 'sidebar-open' : ''}`}>
+      {/* Sidebar Backdrop Overlay */}
+      {sidebarOpen && (
+        <div 
+          className="sidebar-backdrop" 
+          onClick={() => setSidebarOpen(false)}
+          aria-hidden="true"
+        />
+      )}
+
       {/* Collapsible Sidebar */}
       <aside className="app-sidebar" aria-label="Startup Navigation">
         <SidebarContent />

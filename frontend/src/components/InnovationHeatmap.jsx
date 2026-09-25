@@ -555,12 +555,7 @@ export default function InnovationHeatmap() {
 
 
         {/* Main 2-Column Grid: Official Real 3D India Map (Left) + Side Panel (Right) */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'minmax(0, 1.35fr) minmax(0, 1fr)',
-          gap: 24,
-          alignItems: 'stretch'
-        }}>
+        <div className="heatmap-layout" style={{ gap: 24, alignItems: 'stretch' }}>
           
           {/* LEFT: 3D INDIA VECTOR MAP CANVAS (594 Real Administrative Districts!) */}
           <div style={{
